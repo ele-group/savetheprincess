@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="label_title">
+    <behaviour color="#1a1a1a" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_arrowLeft">
+    <behaviour color="#1a1a1a" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="label_arrowLeft">
+    <behaviour color="#1a1a1a" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_arrowRight">
+    <behaviour color="#1a1a1a" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="label_arrowRight">
+    <behaviour color="#1a1a1a" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_arrowDown">
+    <behaviour color="#1a1a1a" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="label_arrowDown">
+    <behaviour color="#1a1a1a" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_arrowUp">
+    <behaviour color="#1a1a1a" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="label_arrowUp">
+    <behaviour color="#1a1a1a" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_mouseLeft">
+    <behaviour color="#1a1a1a" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="label_mouseLeft">
+    <behaviour color="#1a1a1a" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="imageLbl_tab">
+    <behaviour color="#1a1a1a" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="label_tab">
+    <behaviour color="#1a1a1a" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_cloud">
+    <behaviour color="#1a1a1a" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="label_cloud">
+    <behaviour color="#1a1a1a" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="imageLbl_esc">
+    <behaviour color="#1a1a1a" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="label_esc">
+    <behaviour color="#1a1a1a" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="background">
+    <behaviour brightness="-0.7" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>

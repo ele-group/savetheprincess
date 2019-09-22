@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720" prefWidth="1280" styleClass="">
+  <children>
+    <GameBackground focusTraversable="false" height="720" id="background" layoutX="0" layoutY="0" styleClass="without-focus " width="1280"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-background" image=".data/img/blue_land.png" velocityX="1" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label_title" layoutX="384" layoutY="44" opacity="0.9" prefHeight="128" prefWidth="512" styleClass="label " text="Управление" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="true">
+      <font>
+        <Font name="Calibri Bold" size="45"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label_title" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="64" id="image_arrowDown" layoutX="108" layoutY="356" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="64">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_arrowDown" image=".data/img/arrowDown.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="64" id="image_arrowUp" layoutX="108" layoutY="444" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="64">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_arrowUp" image=".data/img/arrowUp.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="64" id="image_arrowLeft" layoutX="108" layoutY="180" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="64">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_arrowLeft" image=".data/img/arrowLeft.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="64" id="image_arrowRight" layoutX="108" layoutY="268" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="64">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_arrowRight" image=".data/img/arrowRight.png" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label_arrowLeft" layoutX="188" layoutY="188" opacity="0.9" prefHeight="48" prefWidth="136" styleClass="label " text="Назад" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="true">
+      <font>
+        <Font name="Calibri Bold" size="25"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label_arrowLeft" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label_arrowRight" layoutX="188" layoutY="276" opacity="0.9" prefHeight="48" prefWidth="136" styleClass="label " text="Вперёд" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="true">
+      <font>
+        <Font name="Calibri Bold" size="25"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label_arrowRight" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label_arrowDown" layoutX="188" layoutY="364" opacity="0.9" prefHeight="48" prefWidth="136" styleClass="label " text="Вниз" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="true">
+      <font>
+        <Font name="Calibri Bold" size="25"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label_arrowDown" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label_arrowUp" layoutX="188" layoutY="460" opacity="0.9" prefHeight="48" prefWidth="136" styleClass="label " text="Вверх" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="true">
+      <font>
+        <Font name="Calibri Bold" size="25"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label_arrowUp" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="64" id="image_mouseLeft" layoutX="108" layoutY="548" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="64">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_mouseLeft" image=".data/img/mouseLeft.png" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label_mouseLeft" layoutX="188" layoutY="556" opacity="0.9" prefHeight="48" prefWidth="136" styleClass="label " text="Атака" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="true">
+      <font>
+        <Font name="Calibri Bold" size="25"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label_mouseLeft" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label_tab" layoutX="508" layoutY="188" opacity="0.9" prefHeight="48" prefWidth="136" styleClass="label " text="Присесть" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="true">
+      <font>
+        <Font name="Calibri Bold" size="25"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label_tab" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="imageLbl_tab" layoutX="404" layoutY="188" opacity="0.9" prefHeight="48" prefWidth="136" styleClass="label " text="TAB" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="true">
+      <font>
+        <Font name="Arial Black" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-imageLbl_tab" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="64" id="image_cloud" layoutX="412" layoutY="276" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="64">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_cloud" image=".data/img/cloud.png" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label_cloud" layoutX="508" layoutY="284" opacity="0.9" prefHeight="48" prefWidth="160" styleClass="label " text="Сохранение" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="true">
+      <font>
+        <Font name="Calibri Bold" size="25"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label_cloud" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="imageLbl_esc" layoutX="404" layoutY="388" opacity="0.9" prefHeight="48" prefWidth="136" styleClass="label " text="ESC" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="true">
+      <font>
+        <Font name="Arial Black" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-imageLbl_esc" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label_esc" layoutX="508" layoutY="388" opacity="0.9" prefHeight="48" prefWidth="184" styleClass="label " text="Выход/Назад" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="true">
+      <font>
+        <Font name="Calibri Bold" size="25"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label_esc" visible="1"/>
+  </children>
+</AnchorPane>

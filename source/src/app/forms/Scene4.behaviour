@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="player">
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="THING" startVelocity="[0]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="background">
+    <behaviour brightness="0" contrast="0" hue="1" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_snowMid">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="0" contrast="0" enabled="" hue="0.1" saturation="0.1" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_snowCenter">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="0" contrast="0" enabled="" hue="0.1" saturation="0.1" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_stone">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_tree_1">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_tree_2">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_tree_3">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_tree_4">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_heart">
+    <behaviour animated="1" delay="0" duration="500" repeatCount="-1" scale="1.2" type="behaviour\custom\PulseAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_fence">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="-0.4" contrast="0.1" hue="0" saturation="0.7" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="princess">
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour animated="1" delay="1000" duration="300" repeatCount="-1" type="behaviour\custom\AutoDestroyBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="object_princess">
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[0]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="timer">
+    <behaviour animated="" delay="0" duration="0" repeatCount="-1" type="behaviour\custom\AutoDestroyBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>

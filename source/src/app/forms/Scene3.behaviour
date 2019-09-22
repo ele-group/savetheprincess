@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="image_flower_1">
+    <behaviour brightness="0" contrast="0" hue="0.79746835443038" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_flower_2">
+    <behaviour brightness="0" contrast="0" hue="0.063291139240506" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_flower_3">
+    <behaviour brightness="0" contrast="0" hue="-1" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_flower_4">
+    <behaviour brightness="0" contrast="0" hue="-0.81012658227848" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_flower_5">
+    <behaviour brightness="0" contrast="0" hue="0.56962025316456" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_flower_6">
+    <behaviour brightness="0" contrast="0" hue="0.56962025316456" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_flower_7">
+    <behaviour brightness="0" contrast="0" hue="1" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_flower_8">
+    <behaviour brightness="0" contrast="0" hue="0.83544303797468" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_spaceShip">
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[0,0]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour animated="1" delay="1500" duration="300" repeatCount="-1" type="behaviour\custom\AutoDestroyBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="object_male">
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[0]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour enabled="" radius="10" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="object_female">
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[0]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour enabled="" radius="10" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+    <behaviour animated="1" delay="500" duration="300" repeatCount="-1" type="behaviour\custom\AutoDestroyBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="background">
+    <behaviour brightness="0" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour enabled="" radius="10" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="timer">
+    <behaviour animated="" delay="0" duration="0" repeatCount="-1" type="behaviour\custom\AutoDestroyBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>

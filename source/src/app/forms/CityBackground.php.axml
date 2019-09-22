@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="TrainingBackground">
+    
+  
+  
+  
+  <method name="doObjectGlobalKeyUpLeft">
+      <GameChangeAnimation animation="defaultago" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doObjectGlobalKeyUpRight">
+      <GameChangeAnimation animation="default" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doObjectGlobalKeyUpUp">
+      <GameChangeAnimation animation="default" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doObjectGlobalKeyUpTab">
+      <GameChangeAnimation animation="default" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doObjectGlobalKeyDownTab">
+      <GameChangeAnimation animation="duck" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doObjectGlobalKeyDownRight">
+      <GameChangeAnimation animation="ahead" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doObjectGlobalKeyDownLeft">
+      <GameChangeAnimation animation="backward" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doObjectGlobalKeyDownUp">
+      <GameChangeAnimation animation="up" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  
+  <method name="doTrenirovkaMouseDownLeft">
+      <hideForm form="Training" form-type="form"/>
+      <showForm form="Menu" form-type="form"/>
+    </method>
+  </class>
+<class name="CityBackground">
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doRect_start_lvl3MouseDownL">
+      <showForm form="LevelsForm" form-type="form"/>
+      <hideForm form="City" form-type="form"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doImageBtn_start_lvl1MouseDownL">
+      <applicationShutdown/>
+      <open file="./lvl1 savetheprincess.exe" file-type="string"/>
+    </method>
+  <method name="doImageBtn_start_lvl2MouseDownL">
+      <applicationShutdown/>
+      <open file="./lvl2 savetheprincess.exe" file-type="string"/>
+    </method>
+  
+  
+  <method name="doImageBtn_start_lvl3MouseDownL">
+      <applicationShutdown/>
+      <open file="./lvl3 savetheprincess.exe" file-type="string"/>
+    </method>
+  <method name="doImageBtn_start_lvl1MouseDownLeft">
+      <gameLoadScene dest="LevelOneBackground" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+    </method>
+  <method name="doInfMouseDownLeft">
+      <gameLoadScene dest="Information" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doImageBtn_start_lvl3MouseDownLeft">
+      <phpLine expr="$GLOBALS['lvl2'] = $this-&gt;ini-&gt;get('lvl2','savetheprincess')" expr-type="expr"/>
+      <ifVar method="equals" method-type="" name="lvl2" name-type="" not="" not-type="" value="true" value-type="string"/>
+      <openBlock/>
+      <gameLoadScene dest="LevelThreeBackground" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+      <setScore name="hp" name-type="string" relative="" relative-type="" value="100" value-type="integer"/>
+      <phpLine expr="Score::set('enemy1hp', 100)" expr-type="expr"/>
+      <phpLine expr="Score::set('enemy2hp', 100)" expr-type="expr"/>
+      <phpLine expr="Score::set('bosshp', 100)" expr-type="expr"/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="form('Screen')-&gt;mouse" object-type="object"/>
+      <closeBlock/>
+      <else/>
+      <message kind="ERROR" kind-type="string" value="Упс! Вы не прошли второй уровень!" value-type="string" wait="" wait-type=""/>
+    </method>
+  <method name="doImageBtn_start_lvl2MouseDownLeft">
+      <phpLine expr="$GLOBALS['lvl1'] = $this-&gt;ini-&gt;get('lvl1','savetheprincess')" expr-type="expr"/>
+      <ifVar method="equals" method-type="" name="lvl1" name-type="" not="" not-type="" value="true" value-type="string"/>
+      <gameLoadScene dest="LevelTwo" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+      <else/>
+      <message kind="ERROR" kind-type="string" value="Упс! Вы не прошли первый уровень!" value-type="string" wait="" wait-type=""/>
+    </method>
+  </class>
+</root>

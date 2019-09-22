@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Download">
+    <method name="doLabel_titleDest">
+      <loadForm form="Menu" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+    <setScore name="start" name-type="string" relative="" relative-type="" value="0" value-type="integer"/>
+    </method>
+  
+  
+  <method name="doLabel_titleDestroy">
+      <gameLoadScene dest="Menu" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+    </method>
+  
+  
+  
+  
+  
+  <method name="doConstruct">
+      <ifVar method="equals" method-type="" name="first-run" name-type="" not="" not-type="" value="true" value-type="string"/>
+      <openBlock/>
+      <gameLoadScene dest="Scene1" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+      <closeBlock/>
+    </method>
+  </class>
+</root>

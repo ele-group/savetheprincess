@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="background">
+    <behaviour brightness="0" contrast="0" hue="0.3" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="label_title">
+    <behaviour color="#ffffff" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+    <behaviour animated="1" delay="0" duration="5000" enabled="" repeatCount="-1" scale="1.2" type="behaviour\custom\PulseAnimationBehaviour" when="ALWAYS"/>
+    <behaviour animated="" delay="1000" duration="300" repeatCount="-1" type="behaviour\custom\AutoDestroyBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>

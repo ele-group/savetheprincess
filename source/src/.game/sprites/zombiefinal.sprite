@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite defaultAnimation="1" file=".game/sprites/zombiefinal.png" fixtureData="Array" fixtureType="" frameHeight="110" frameWidth="80" metaAutoSize="" metaCentred="" speed="6">
+  <animation indexes="35,36,37" name="1"/>
+  <animation indexes="24" name="2"/>
+</sprite>

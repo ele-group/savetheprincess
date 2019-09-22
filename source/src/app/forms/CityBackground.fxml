@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720" prefWidth="3328" styleClass="">
+  <children>
+    <CustomNode type="Prototypes.image_planetCenter" x="1792" y="336"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1664" y="336"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1664" y="208"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1792" y="208"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="0" y="592"/>
+    <CustomNode type="Prototypes.image_block_02" x="352" y="-72"/>
+    <GameBackground focusTraversable="false" height="584" id="sky" layoutX="0" layoutY="-376" styleClass="without-focus " width="3328"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-sky" image=".data/img/blue_shroom.png" velocityX="2" visible="1"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="0" y="464"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="0" y="336"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="128" y="208"/>
+    <CustomNode type="Prototypes.image_fence" x="128" y="80"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="128" y="592"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="128" y="464"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="128" y="336"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="0" y="208"/>
+    <CustomNode type="Prototypes.image_fence" x="0" y="80"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="256" y="464"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="256" y="336"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="256" y="208"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="384" y="464"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="384" y="336"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="384" y="208"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="256" y="592"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="384" y="592"/>
+    <CustomNode type="Prototypes.image_fence" x="384" y="592"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="512" y="464"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="512" y="336"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="512" y="208"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="640" y="464"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="640" y="336"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="640" y="208"/>
+    <CustomNode type="Prototypes.image_fence" x="640" y="80"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="768" y="464"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="768" y="336"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="768" y="208"/>
+    <CustomNode type="Prototypes.image_fence" x="768" y="80"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="896" y="464"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="896" y="336"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="896" y="208"/>
+    <CustomNode type="Prototypes.image_fence" x="896" y="80"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="512" y="592"/>
+    <CustomNode type="Prototypes.image_fence" x="512" y="592"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="640" y="592"/>
+    <CustomNode type="Prototypes.image_fence" x="640" y="592"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="768" y="592"/>
+    <CustomNode type="Prototypes.image_fence" x="768" y="592"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="896" y="592"/>
+    <CustomNode type="Prototypes.image_fence" x="896" y="592"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1024" y="464"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1024" y="336"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1024" y="208"/>
+    <CustomNode type="Prototypes.image_fence" x="1024" y="80"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1152" y="464"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1152" y="336"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1152" y="208"/>
+    <CustomNode type="Prototypes.image_fence" x="1152" y="80"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1280" y="464"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1280" y="336"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1280" y="208"/>
+    <CustomNode type="Prototypes.image_fence" x="1280" y="80"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1408" y="464"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1408" y="336"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1408" y="208"/>
+    <CustomNode type="Prototypes.image_fence" x="1408" y="80"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1536" y="464"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1536" y="336"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1536" y="208"/>
+    <CustomNode type="Prototypes.image_fence" x="1536" y="80"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1024" y="592"/>
+    <CustomNode type="Prototypes.image_fence" x="1024" y="592"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1152" y="592"/>
+    <CustomNode type="Prototypes.image_fence" x="1152" y="592"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1280" y="592"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1408" y="592"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1536" y="592"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1664" y="464"/>
+    <CustomNode type="Prototypes.image_fence" x="1664" y="80"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1792" y="464"/>
+    <CustomNode type="Prototypes.image_fence" x="1792" y="80"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1920" y="464"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1920" y="336"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1920" y="208"/>
+    <CustomNode type="Prototypes.image_fence" x="1920" y="80"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1664" y="592"/>
+    <CustomNode type="Prototypes.image_fence" x="1664" y="592"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1792" y="592"/>
+    <CustomNode type="Prototypes.image_fence" x="1792" y="592"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="1920" y="592"/>
+    <CustomNode type="Prototypes.image_fence" x="1920" y="592"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2048" y="592"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2048" y="336"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2048" y="208"/>
+    <CustomNode type="Prototypes.image_fence" x="2048" y="80"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2048" y="464"/>
+    <CustomNode type="Prototypes.image_block_02" x="224" y="224"/>
+    <CustomNode type="Prototypes.image_block_02" x="224" y="176"/>
+    <CustomNode type="Prototypes.image_block_02" x="224" y="128"/>
+    <CustomNode type="Prototypes.image_block_02" x="224" y="80"/>
+    <CustomNode type="Prototypes.image_block_02" x="224" y="32"/>
+    <CustomNode type="Prototypes.image_block_02" x="224" y="-16"/>
+    <CustomNode type="Prototypes.image_block_02" x="224" y="-64"/>
+    <CustomNode type="Prototypes.image_block_02" x="224" y="-112"/>
+    <CustomNode type="Prototypes.image_block_02" x="608" y="224"/>
+    <CustomNode type="Prototypes.image_block_02" x="608" y="168"/>
+    <CustomNode type="Prototypes.image_block_02" x="608" y="128"/>
+    <CustomNode type="Prototypes.image_block_02" x="608" y="80"/>
+    <CustomNode type="Prototypes.image_block_02" x="608" y="32"/>
+    <CustomNode type="Prototypes.image_block_02" x="608" y="-16"/>
+    <CustomNode type="Prototypes.image_block_02" x="608" y="-64"/>
+    <CustomNode type="Prototypes.image_block_02" x="608" y="-112"/>
+    <CustomNode type="Prototypes.image_block_02" x="352" y="32"/>
+    <CustomNode type="Prototypes.image_block_02" x="480" y="32"/>
+    <CustomNode type="Prototypes.image_block_02" x="352" y="-16"/>
+    <CustomNode type="Prototypes.image_block_02" x="480" y="-16"/>
+    <CustomNode type="Prototypes.image_block_02" x="352" y="-64"/>
+    <CustomNode type="Prototypes.image_block_02" x="480" y="-64"/>
+    <CustomNode type="Prototypes.image_block_02" x="352" y="-112"/>
+    <CustomNode type="Prototypes.image_block_02" x="480" y="-112"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label_title_lvl1" layoutX="224" layoutY="20" prefHeight="128" prefWidth="512" styleClass="label " text="УКЛОНИСЬ ОТ ЗОМБИ" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="true">
+      <font>
+        <Font name="Calibri Bold" size="44"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label_title_lvl1" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect_wall_right" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_bushes_1" image=".data/img/bush.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_bushes_2" image=".data/img/bush.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_tree_1" image=".data/img/foliagePack_009.png" visible="1"/>
+    <CustomNode type="Prototypes.image_fence" x="128" y="592"/>
+    <CustomNode type="Prototypes.image_fence" x="256" y="592"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="64" id="inf" layoutX="4" layoutY="12" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="64">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="HAND" enabled="1" id="data-inf" image=".data/img/information.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_bushes_3" image=".data/img/foliagePack_020.png" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#1a1a1a" focusTraversable="false" height="416" id="rect_wall_left" layoutX="-24" layoutY="208" stroke="#1a1a1a" strokeType="INSIDE" strokeWidth="2" styleClass="" width="24"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect_wall_left" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_bushes_4" image=".data/img/foliagePack_051.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_tree_2" image=".data/img/foliagePack_009.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="421" id="image_tree_2" layoutX="1224" layoutY="8" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="176">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <CustomNode type="Prototypes.image_planetCenter" x="2176" y="464"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2176" y="336"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2176" y="208"/>
+    <CustomNode type="Prototypes.image_fence" x="2176" y="80"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2304" y="464"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2304" y="336"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2304" y="208"/>
+    <CustomNode type="Prototypes.image_fence" x="2304" y="80"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2432" y="464"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2432" y="336"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2432" y="208"/>
+    <CustomNode type="Prototypes.image_fence" x="2432" y="80"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2176" y="592"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2304" y="592"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2432" y="592"/>
+    <CustomNode type="Prototypes.image_fence" x="2432" y="592"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2560" y="592"/>
+    <CustomNode type="Prototypes.image_fence" x="2560" y="592"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2560" y="336"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2560" y="208"/>
+    <CustomNode type="Prototypes.image_fence" x="2560" y="80"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2560" y="464"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2688" y="464"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2688" y="336"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2688" y="208"/>
+    <CustomNode type="Prototypes.image_fence" x="2688" y="80"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2816" y="464"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2816" y="336"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2816" y="208"/>
+    <CustomNode type="Prototypes.image_fence" x="2816" y="80"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2944" y="464"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2944" y="336"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2944" y="208"/>
+    <CustomNode type="Prototypes.image_fence" x="2944" y="80"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2688" y="592"/>
+    <CustomNode type="Prototypes.image_fence" x="2688" y="592"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2816" y="592"/>
+    <CustomNode type="Prototypes.image_fence" x="2816" y="592"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="2944" y="592"/>
+    <CustomNode type="Prototypes.image_fence" x="2944" y="592"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="3072" y="592"/>
+    <CustomNode type="Prototypes.image_fence" x="3072" y="592"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="3072" y="336"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="3072" y="208"/>
+    <CustomNode type="Prototypes.image_fence" x="3072" y="80"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="3072" y="464"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#1a1a1a" focusTraversable="false" height="136" id="rect_start_lvl3" layoutX="2856" layoutY="200" opacity="0.7" stroke="#1a1a1a" strokeType="INSIDE" strokeWidth="2" styleClass="" width="96"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect_start_lvl3" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label_title_lvl3" visible="1"/>
+    <CustomNode type="Prototypes.image_block_03" x="2952" y="208"/>
+    <CustomNode type="Prototypes.image_block_03" x="2952" y="168"/>
+    <CustomNode type="Prototypes.image_block_03" x="2968" y="120"/>
+    <CustomNode type="Prototypes.image_block_03" x="2904" y="72"/>
+    <CustomNode type="Prototypes.image_block_03" x="2728" y="208"/>
+    <CustomNode type="Prototypes.image_block_03" x="2728" y="168"/>
+    <CustomNode type="Prototypes.image_block_03" x="2712" y="120"/>
+    <CustomNode type="Prototypes.image_block_03" x="2776" y="72"/>
+    <CustomNode type="Prototypes.image_block_03" x="2840" y="24"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label_title_lvl3" layoutX="2768" layoutY="72" prefHeight="128" prefWidth="272" styleClass="label " text="СПАСЕНИЕ" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="true">
+      <font>
+        <Font name="Calibri Bold" size="44"/>
+      </font>
+    </LabelEx>
+    <CustomNode type="Prototypes.image_planetCenter" x="3200" y="592"/>
+    <CustomNode type="Prototypes.image_fence" x="3200" y="592"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="3200" y="336"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="3200" y="208"/>
+    <CustomNode type="Prototypes.image_fence" x="3200" y="80"/>
+    <CustomNode type="Prototypes.image_planetCenter" x="3200" y="464"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#1a1a1a" focusTraversable="false" height="416" id="rect_wall_right" layoutX="3296" layoutY="208" opacity="0" stroke="#1a1a1a" strokeType="INSIDE" strokeWidth="2" styleClass="" width="32"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_flower" image=".data/img/foliagePack_002.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_bushes_5" image=".data/img/foliagePack_050.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="415" id="image_tree_3" layoutX="2304" layoutY="-32" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="243">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_tree_3" image=".data/img/foliagePack_008.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_bushes_6" image=".data/img/foliagePack_020.png" visible="1"/>
+    <CustomNode type="Prototypes.player" x="160" y="400"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="421" id="image_tree_1" layoutX="-24" layoutY="296" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="176">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="90" id="image_bushes_3" layoutX="856" layoutY="480" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="104">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="112" id="image_bushes_4" layoutX="1368" layoutY="544" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="277">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="109" id="image_bushes_5" layoutX="2168" layoutY="552" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="196">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="90" id="image_bushes_6" layoutX="2872" layoutY="456" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="104">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <CustomNode type="Prototypes.image_fence" x="2176" y="592"/>
+    <CustomNode type="Prototypes.image_fence" x="2304" y="592"/>
+    <CustomNode type="Prototypes.image_fence" x="2048" y="592"/>
+    <CustomNode type="Prototypes.image_fence" x="1408" y="592"/>
+    <CustomNode type="Prototypes.image_fence" x="1536" y="592"/>
+    <CustomNode type="Prototypes.image_fence" x="1280" y="592"/>
+    <CustomNode type="Prototypes.image_fence" x="0" y="592"/>
+    <CustomNode type="Prototypes.image_block_04" x="1648" y="224"/>
+    <CustomNode type="Prototypes.image_block_04" x="1648" y="176"/>
+    <CustomNode type="Prototypes.image_block_04" x="1648" y="128"/>
+    <CustomNode type="Prototypes.image_block_04" x="1648" y="80"/>
+    <CustomNode type="Prototypes.image_block_04" x="1648" y="32"/>
+    <CustomNode type="Prototypes.image_block_04" x="1768" y="32"/>
+    <CustomNode type="Prototypes.image_block_04" x="1888" y="224"/>
+    <CustomNode type="Prototypes.image_block_04" x="1888" y="176"/>
+    <CustomNode type="Prototypes.image_block_04" x="1888" y="128"/>
+    <CustomNode type="Prototypes.image_block_04" x="1888" y="80"/>
+    <CustomNode type="Prototypes.image_block_04" x="1888" y="32"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="121" id="image_flower" layoutX="1824" layoutY="432" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="82">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#1a1a1a" focusTraversable="false" height="192" id="rect_start_lvl1" layoutX="352" layoutY="160" opacity="0.9" stroke="#1a1a1a" strokeType="INSIDE" strokeWidth="2" styleClass="" width="256"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect_start_lvl1" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="128" id="image_bushes_2" layoutX="576" layoutY="264" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="128">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="128" id="image_bushes_1" layoutX="544" layoutY="264" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="128">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="100" id="imageBtn_start_lvl1" layoutX="436" layoutY="204" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="100">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="HAND" enabled="1" id="data-imageBtn_start_lvl1" image=".data/img/right.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label_title_lvl2" visible="1"/>
+    <Data cursor="HAND" enabled="1" id="data-imageBtn_start_lvl2" image=".data/img/right.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="100" id="imageBtn_start_lvl3" layoutX="2856" layoutY="216" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="100">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="HAND" enabled="1" id="data-imageBtn_start_lvl3" image=".data/img/right.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect_start_lvl2" visible="1"/>
+    <CustomNode type="Prototypes.image_block_04" x="1768" y="224"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#1a1a1a" focusTraversable="false" height="144" id="rect_start_lvl2" layoutX="1768" layoutY="160" opacity="0.9" stroke="#1a1a1a" strokeType="INSIDE" strokeWidth="2" styleClass="" width="128"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="100" id="imageBtn_start_lvl2" layoutX="1784" layoutY="184" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="100">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label_title_lvl2" layoutX="1665" layoutY="36" prefHeight="128" prefWidth="336" styleClass="label " text="В ПОИСКАХ ОРУЖИЯ" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="true">
+      <font>
+        <Font name="Calibri Bold" size="44"/>
+      </font>
+    </LabelEx>
+  </children>
+</AnchorPane>

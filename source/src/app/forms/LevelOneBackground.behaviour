@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="image_tree_1">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[0]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_tree_2">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_tree_3">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_tree_4">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="background">
+    <behaviour brightness="-0.2" contrast="0" hue="-0.5" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_bushes_1">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_bushes_2">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_bushes_3">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_bushes_4">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_bushes_5">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_bushes_6">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_bushes_7">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_bushes_8">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_bushes_9">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_bushes_10">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_bushes_11">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_bushes_12">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_flower_1">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_flower_2">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_flower_3">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="rect_wall_left">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="rect_wall_right">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="rect_wall_down">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="rect_wall_up">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="btn_win">
+    <behaviour color="#1a1a1a" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[0]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour delay="0" duration="1200000" offsetX="-256000" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>

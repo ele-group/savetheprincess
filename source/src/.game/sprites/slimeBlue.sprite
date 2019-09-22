@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite defaultAnimation="default" file=".game/sprites/slimeBlue.png" fixtureData="Array" fixtureType="" frameHeight="128" frameWidth="128" metaAutoSize="" metaCentred="" speed="4">
+  <animation indexes="0,1" name="default"/>
+  <animation indexes="3" name="die"/>
+</sprite>

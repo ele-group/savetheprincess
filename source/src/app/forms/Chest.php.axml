@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Chest">
+    <method name="doButton_takeMouseDownLeft">
+      <gameLoadScene dest="LevelTwoWin" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+    </method>
+  </class>
+</root>

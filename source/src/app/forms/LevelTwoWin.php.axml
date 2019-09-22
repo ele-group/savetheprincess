@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MatchWin">
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doButtonMouseDownLeft">
+      <loadForm form="City" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    <exit/>
+    </method>
+  </class>
+<class name="SearchWin">
+    <method name="doButtonMouseDownLeft">
+      <loadForm form="City" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+  </class>
+<class name="Win">
+    
+  </class>
+<class name="LevelOneWin"/>
+<class name="LevelTwoWin">
+    
+  </class>
+</root>

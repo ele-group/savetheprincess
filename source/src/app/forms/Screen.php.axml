@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="City">
+    <method name="doKeyDownEsc">
+      <hideForm form="~sender" form-type="form"/>
+      <showForm form="Menu" form-type="form"/>
+    </method>
+  
+  <method name="doShow">
+      <openMedia autoplay="1" autoplay-type="flag" id="player" id-type="object" source="res://.data/audio/Urbanus_Castle_Crashers (qmusic.me).mp3" source-type="string"/>
+    </method>
+  </class>
+<class name="Screen">
+    <method name="doCircle_closeMouseDownLeft">
+      <applicationShutdown/>
+    </method>
+    
+  
+  <method name="doCircle_menuMouseDownLeft">
+      <gameLoadScene dest="Menu" dest-type="form" source="reflection" source-type="object"/>
+    <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="mouse" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  <method name="doShow">
+      <setVar name="first-run" name-type="" value="$this-&gt;ini-&gt;get('first-run','savetheprincess')" value-type="expr"/>
+    </method>
+  <method name="doKeyDownEsc">
+      <gameLoadScene dest="Menu" dest-type="form" source="reflection" source-type="object"/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="mouse" object-type="object"/>
+    </method>
+  </class>
+</root>

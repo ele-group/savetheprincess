@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="image_spaceShip">
+    <behaviour animated="1" delay="1000" duration="300" repeatCount="-1" type="behaviour\custom\AutoDestroyBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="background">
+    <behaviour brightness="0" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="timer">
+    <behaviour animated="" delay="0" duration="0" repeatCount="-1" type="behaviour\custom\AutoDestroyBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>

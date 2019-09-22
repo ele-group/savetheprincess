@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720" prefWidth="1280" styleClass="">
+  <children>
+    <GamePane backgroundColor="#00000000" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="reflection" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="720" prefWidth="1280" styleClass="without-focus " titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
+      <titleFont>
+        <Font name="System Regular" size="15"/>
+      </titleFont>
+      <children>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
+      </children>
+    </GamePane>
+    <Data cursor="DEFAULT" enabled="1" id="data-reflection" visible="1"/>
+    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="18" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel_control" layoutX="1184" layoutY="16" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="32" prefWidth="80" styleClass="" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <Circle fill="#ff6666" focusTraversable="false" id="circle_close" layoutX="64" layoutY="16" radius="8" stroke="#ffffff" strokeType="INSIDE" strokeWidth="0" styleClass=""/>
+        <Circle fill="#99cc99" focusTraversable="false" id="circle_moving" layoutX="40" layoutY="16" radius="8" stroke="#ffffff" strokeType="INSIDE" strokeWidth="0" styleClass=""/>
+        <Data cursor="HAND" enabled="1" id="data-circle_close" visible="1"/>
+        <Circle fill="#99b3ff" focusTraversable="false" id="circle_menu" layoutX="16" layoutY="16" radius="8" stroke="#ffffff" strokeType="INSIDE" strokeWidth="0" styleClass=""/>
+        <Data cursor="HAND" enabled="1" id="data-circle_moving" visible="1"/>
+        <Data cursor="HAND" enabled="1" id="data-circle_menu" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel_control" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-mouse" image=".data/img/upLeft.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="40" id="mouse" layoutX="1240" layoutY="680" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="40">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+  </children>
+</AnchorPane>

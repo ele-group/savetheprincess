@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="reflection">
+    <behaviour autoplay="1" cacheScenes="" gravityDirection="DOWN" gravityType="EARTH" initialScene="LevelTwoBackground" type="behaviour\custom\GameSceneBehaviour"/>
+  </target>
+</behaviours>

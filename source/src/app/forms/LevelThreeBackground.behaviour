@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="player">
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="THING" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour position="CENTER" type="behaviour\custom\CameraTargetBehaviour"/>
+    <behaviour animated="1" changeAngle="" direction="ALL" speed="100" tileHeight="32" tileWidth="32" type="behaviour\custom\GridMovementBehaviour" wasd=""/>
+  </target>
+  <target id="rect_wall_up">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="rect_wall_down">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="rect_wall_left">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="rect_flag_bow">
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[0]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="rect_flag_ufo">
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="background">
+    <behaviour brightness="0" contrast="0" hue="1" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_snowCenter">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="0" contrast="0" enabled="" hue="0.1" saturation="0.1" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_snowMid">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="0" contrast="0" enabled="" hue="0.1" saturation="0.1" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_tree_1">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_tree_2">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_tree_3">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_tree_4">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_tree_5">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_tree_6">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_tree_7">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_tree_8">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_tree_9">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="object_enemy_1">
+    <behaviour bodyType="DYNAMIC" fixtureType="ELLIPSE" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="0" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour delay="0" duration="1200000" offsetX="-256000" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="object_enemy_2">
+    <behaviour bodyType="DYNAMIC" fixtureType="ELLIPSE" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="0" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour delay="0" duration="1200000" offsetX="-256000" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="object_enemy_3">
+    <behaviour bodyType="DYNAMIC" fixtureType="ELLIPSE" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="0" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour delay="0" duration="1200000" offsetX="-256000" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="object_enemy_4">
+    <behaviour bodyType="DYNAMIC" fixtureType="ELLIPSE" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="0" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour delay="0" duration="1200000" offsetX="-256000" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="object_enemy_5">
+    <behaviour bodyType="DYNAMIC" fixtureType="ELLIPSE" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="0" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour delay="0" duration="1200000" offsetX="-256000" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="object_enemy_6">
+    <behaviour bodyType="DYNAMIC" fixtureType="ELLIPSE" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="0" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour delay="0" duration="1200000" offsetX="-256000" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="object_enemy_7">
+    <behaviour bodyType="DYNAMIC" fixtureType="ELLIPSE" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="0" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour delay="0" duration="1200000" offsetX="-256000" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="object_enemy_8">
+    <behaviour bodyType="DYNAMIC" fixtureType="ELLIPSE" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="0" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour delay="0" duration="1200000" offsetX="-256000" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+    <behaviour color="#f2f2f2" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="object_enemy_9">
+    <behaviour bodyType="DYNAMIC" fixtureType="ELLIPSE" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="0" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour delay="0" duration="1200000" offsetX="-256000" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+    <behaviour color="#f2f2f2" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="object_enemy_10">
+    <behaviour bodyType="DYNAMIC" fixtureType="ELLIPSE" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="0" contrast="0" hue="-1" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour delay="0" duration="1200000" offsetX="-256000" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="object_enemy_11">
+    <behaviour bodyType="DYNAMIC" fixtureType="ELLIPSE" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="0" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour delay="0" duration="1200000" offsetX="-256000" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="object_enemy_12">
+    <behaviour bodyType="DYNAMIC" fixtureType="ELLIPSE" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="0" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour delay="0" duration="1200000" offsetX="-256000" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="object_enemy_13">
+    <behaviour bodyType="DYNAMIC" fixtureType="ELLIPSE" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="0" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour delay="0" duration="1200000" offsetX="-256000" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="object_enemy_14">
+    <behaviour bodyType="DYNAMIC" fixtureType="ELLIPSE" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="0" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour delay="0" duration="1200000" offsetX="-256000" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="object_enemy_15">
+    <behaviour bodyType="DYNAMIC" fixtureType="ELLIPSE" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="0" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour delay="0" duration="1200000" offsetX="-256000" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="object_enemy_16">
+    <behaviour bodyType="DYNAMIC" fixtureType="ELLIPSE" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="0" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour delay="0" duration="1200000" offsetX="-256000" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_stone_1">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_stone_2">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_stone_3">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="shot_ufo_1">
+    <behaviour delay="0" duration="10000000000" enabled="" offsetX="-10000000000" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[0]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="shot_ufo_2">
+    <behaviour delay="0" duration="10000000000" enabled="" offsetX="-10000000000" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[0]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="shot_ufo_3">
+    <behaviour delay="0" duration="10000000000" enabled="" offsetX="-10000000000" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[0]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="shot_ufo_4">
+    <behaviour delay="0" duration="10000000000" enabled="" offsetX="-10000000000" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[0]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="sword">
+    <behaviour color="#1a1a1a" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+    <behaviour centered="1" hideOrigin="1" offsetX="0" offsetY="0" type="behaviour\custom\CursorBindBehaviour"/>
+  </target>
+  <target id="object_ufo_small_1">
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[0]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour delay="0" duration="6000" offsetX="700" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="object_ufo_small_2">
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour delay="0" duration="4000" offsetX="-500" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="object_enemy_19">
+    <behaviour bodyType="DYNAMIC" fixtureType="ELLIPSE" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="0" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour delay="0" duration="1200000" offsetX="-256000" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+    <behaviour color="#f2f2f2" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="object_enemy_18">
+    <behaviour bodyType="DYNAMIC" fixtureType="ELLIPSE" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="0" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour delay="0" duration="1200000" offsetX="-256000" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+    <behaviour color="#f2f2f2" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="object_enemy_17">
+    <behaviour bodyType="DYNAMIC" fixtureType="ELLIPSE" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="0" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour delay="0" duration="1200000" offsetX="-256000" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="shot_ufo_small">
+    <behaviour delay="0" duration="1200" offsetX="-750" offsetY="750" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[0]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="target">
+    <behaviour color="#f2f2f2" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+    <behaviour centered="1" hideOrigin="1" offsetX="0" offsetY="0" type="behaviour\custom\CursorBindBehaviour"/>
+  </target>
+  <target id="object_zombie_1">
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="0" contrast="0" hue="-0.7" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="object_zombie_2">
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="0" contrast="0" hue="-0.7" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="object_zombie_3">
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="0" contrast="0" hue="-0.7" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="hp">
+    <behaviour color="#ffffff" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+    <behaviour direction="HORIZONTAL" type="behaviour\custom\CameraSnapBehaviour"/>
+  </target>
+  <target id="object_ufo_big_1">
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[0]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour delay="0" duration="1000" offsetX="0" offsetY="50" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="object_ufo_big_2">
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="princess">
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[0]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="bow">
+    <behaviour color="#1a1a1a" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+    <behaviour centered="" enabled="" hideOrigin="1" offsetX="0" offsetY="0" type="behaviour\custom\CursorBindBehaviour"/>
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[0]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour animated="1" changeAngle="" direction="ALL" enabled="" speed="100" tileHeight="32" tileWidth="32" type="behaviour\custom\GridMovementBehaviour" wasd=""/>
+  </target>
+  <target id="image_fence">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="-0.4" contrast="0.1" hue="0" saturation="0.7" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_flower">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+</behaviours>

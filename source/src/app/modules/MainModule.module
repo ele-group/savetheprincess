@@ -1,0 +1,28 @@
+{
+  "props": [],
+  "components": {
+    "ini": {
+      "type": "script\\storage\\IniStorage",
+      "x": 32,
+      "y": 0,
+      "props": {
+        "disabled": false,
+        "path": "config.ini",
+        "autoSave": "1",
+        "multiLineValues": "1"
+      }
+    },
+    "player": {
+      "type": "script\\MediaPlayerScript",
+      "x": 0,
+      "y": 0,
+      "props": {
+        "loop": true,
+        "autoplay": "1",
+        "volume": "1.0",
+        "balance": "0.0",
+        "rate": "1.0"
+      }
+    }
+  }
+}

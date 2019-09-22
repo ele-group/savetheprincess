@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720" prefWidth="1280" styleClass="">
+  <children>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="384" id="ground" layoutX="0" layoutY="336" mosaic="true" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="1280">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <GameBackground focusTraversable="false" height="576" id="background" layoutX="0" layoutY="-240" styleClass="without-focus " width="1280"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-background" image=".data/img/blue_land.png" velocityX="2" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#1a1a1a" focusTraversable="false" height="392" id="rect_wall_left" layoutX="-24" layoutY="336" stroke="#1a1a1a" strokeType="INSIDE" strokeWidth="2" styleClass="" width="24"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect_wall_left" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#1a1a1a" focusTraversable="false" height="392" id="rect_wall_right" layoutX="1280" layoutY="336" stroke="#1a1a1a" strokeType="INSIDE" strokeWidth="2" styleClass="" width="24"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect_wall_right" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#1a1a1a" focusTraversable="false" height="24" id="rect_wall_down" layoutX="-24" layoutY="720" stroke="#1a1a1a" strokeType="INSIDE" strokeWidth="2" styleClass="" width="7080"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect_wall_down" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="71" id="image_bushes_1" layoutX="-8" layoutY="272" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="74">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_bushes_1" image=".data/img/foliagePack_021.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="71" id="image_bushes_3" layoutX="184" layoutY="264" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="74">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_bushes_3" image=".data/img/foliagePack_021.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="71" id="image_bushes_4" layoutX="328" layoutY="272" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="74">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_bushes_4" image=".data/img/foliagePack_021.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="415" id="image_tree_2" layoutX="312" layoutY="-80" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="244">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_tree_2" image=".data/img/foliagePack_014.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="470" id="image_tree_3" layoutX="624" layoutY="-128" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="134">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_tree_3" image=".data/img/foliagePack_018.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="71" id="image_bushes_5" layoutX="456" layoutY="272" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="74">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_bushes_5" image=".data/img/foliagePack_021.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="71" id="image_bushes_10" layoutX="928" layoutY="264" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="74">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_bushes_10" image=".data/img/foliagePack_021.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="422" id="image_tree_4" layoutX="880" layoutY="-88" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="302">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_tree_4" image=".data/img/foliagePack_017.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="121" id="image_flower_3" layoutX="1056" layoutY="216" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="82">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_flower_3" image=".data/img/foliagePack_002.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="71" id="image_bushes_11" layoutX="1136" layoutY="264" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="74">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_bushes_11" image=".data/img/foliagePack_021.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="71" id="image_bushes_12" layoutX="1208" layoutY="264" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="74">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_bushes_12" image=".data/img/foliagePack_021.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="71" id="image_bushes_2" layoutX="112" layoutY="272" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="74">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_bushes_2" image=".data/img/foliagePack_021.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="422" id="image_tree_1" layoutX="-64" layoutY="-72" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="302">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_tree_1" image=".data/img/foliagePack_017.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="71" id="image_bushes_7" layoutX="712" layoutY="264" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="74">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_bushes_7" image=".data/img/foliagePack_021.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="71" id="image_bushes_8" layoutX="784" layoutY="264" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="74">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_bushes_8" image=".data/img/foliagePack_021.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="71" id="image_bushes_9" layoutX="856" layoutY="264" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="74">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_bushes_9" image=".data/img/foliagePack_021.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="71" id="image_bushes_6" layoutX="592" layoutY="264" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="74">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_bushes_6" image=".data/img/foliagePack_021.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="70" id="image_flower_2" layoutX="520" layoutY="264" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="82">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_flower_2" image=".data/img/foliagePack_003.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="100" id="image_flower_1" layoutX="256" layoutY="240" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="82">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_flower_1" image=".data/img/foliagePack_001.png" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#1a1a1a" focusTraversable="false" height="24" id="rect_wall_up" layoutX="-24" layoutY="328" opacity="0" stroke="#1a1a1a" strokeType="INSIDE" strokeWidth="2" styleClass="" width="7072"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect_wall_up" visible="1"/>
+    <CustomNode type="Prototypes.player" x="72" y="472"/>
+    <CustomNode type="Prototypes.zombie" x="888" y="608"/>
+    <CustomNode type="Prototypes.zombie" x="1192" y="352"/>
+    <CustomNode type="Prototypes.zombie" x="1520" y="608"/>
+    <CustomNode type="Prototypes.zombie" x="1792" y="352"/>
+    <CustomNode type="Prototypes.zombie" x="2032" y="352"/>
+    <CustomNode type="Prototypes.zombie" x="2384" y="608"/>
+    <CustomNode type="Prototypes.zombie" x="2664" y="488"/>
+    <CustomNode type="Prototypes.zombie" x="3104" y="352"/>
+    <CustomNode type="Prototypes.zombie" x="2760" y="488"/>
+    <CustomNode type="Prototypes.zombie" x="3080" y="608"/>
+    <CustomNode type="Prototypes.zombie" x="3408" y="352"/>
+    <CustomNode type="Prototypes.zombie" x="3720" y="352"/>
+    <CustomNode type="Prototypes.zombie" x="4024" y="472"/>
+    <CustomNode type="Prototypes.zombie" x="3672" y="608"/>
+    <CustomNode type="Prototypes.zombie" x="4344" y="608"/>
+    <CustomNode type="Prototypes.zombie" x="4328" y="352"/>
+    <CustomNode type="Prototypes.zombie" x="4568" y="352"/>
+    <CustomNode type="Prototypes.zombie" x="4808" y="608"/>
+    <CustomNode type="Prototypes.zombie" x="5056" y="352"/>
+    <CustomNode type="Prototypes.zombie" x="5296" y="608"/>
+    <CustomNode type="Prototypes.zombie" x="5160" y="352"/>
+    <CustomNode type="Prototypes.zombie" x="5528" y="480"/>
+    <CustomNode type="Prototypes.zombie" x="5808" y="608"/>
+    <CustomNode type="Prototypes.zombie" x="5944" y="352"/>
+    <CustomNode type="Prototypes.zombie" x="6080" y="608"/>
+    <CustomNode type="Prototypes.zombie" x="5936" y="608"/>
+    <CustomNode type="Prototypes.zombie" x="6344" y="472"/>
+    <CustomNode type="Prototypes.zombie" x="6672" y="608"/>
+    <CustomNode type="Prototypes.zombie" x="6880" y="352"/>
+    <CustomNode type="Prototypes.zombie" x="6592" y="352"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-ground" image=".data/img/ground_03.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="100" id="btn_win" layoutX="6872" layoutY="616" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="100">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-btn_win" image=".data/img/right.png" visible="1"/>
+  </children>
+</AnchorPane>

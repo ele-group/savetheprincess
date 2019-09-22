@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="image_grassCenter">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_grassMid">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="background">
+    <behaviour brightness="0" contrast="0" hue="0.1" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="player">
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="THING" startVelocity="[0]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour enabled="" position="CENTER" type="behaviour\custom\CameraTargetBehaviour"/>
+    <behaviour animated="1" changeAngle="" direction="ALL" enabled="" speed="100" tileHeight="32" tileWidth="32" type="behaviour\custom\GridMovementBehaviour" wasd=""/>
+    <behaviour delay="0" duration="500" offsetX="0" offsetY="-30" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="label_name">
+    <behaviour color="#ffffff" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+    <behaviour animated="1" delay="0" duration="5000" repeatCount="-1" scale="1.2" type="behaviour\custom\PulseAnimationBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>

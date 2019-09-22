@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720" prefWidth="1280" styleClass="">
+  <children>
+    <GameBackground focusTraversable="false" height="584" id="background" layoutX="0" layoutY="-248" styleClass="without-focus " width="896"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="129" id="image_snowMid" layoutX="0" layoutY="336" mosaic="true" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="1280">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_snowMid" image=".data/img/snowMid.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="256" id="image_snowCenter" layoutX="0" layoutY="464" mosaic="true" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="1280">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_snowCenter" image=".data/img/snowCenter.png" visible="1"/>
+    <CustomNode type="Prototypes.image12" x="896" y="592"/>
+    <CustomNode type="Prototypes.image12" x="896" y="544"/>
+    <CustomNode type="Prototypes.image12" x="896" y="496"/>
+    <CustomNode type="Prototypes.image12" x="896" y="448"/>
+    <CustomNode type="Prototypes.image12" x="896" y="400"/>
+    <CustomNode type="Prototypes.image12" x="896" y="352"/>
+    <CustomNode type="Prototypes.image12" x="896" y="304"/>
+    <CustomNode type="Prototypes.image12" x="896" y="256"/>
+    <CustomNode type="Prototypes.image12" x="896" y="208"/>
+    <CustomNode type="Prototypes.image12" x="896" y="160"/>
+    <CustomNode type="Prototypes.image12" x="896" y="112"/>
+    <CustomNode type="Prototypes.image12" x="1024" y="592"/>
+    <CustomNode type="Prototypes.image12" x="1024" y="544"/>
+    <CustomNode type="Prototypes.image12" x="1024" y="496"/>
+    <CustomNode type="Prototypes.image12" x="1024" y="448"/>
+    <CustomNode type="Prototypes.image12" x="1024" y="400"/>
+    <CustomNode type="Prototypes.image12" x="1024" y="352"/>
+    <CustomNode type="Prototypes.image12" x="1024" y="304"/>
+    <CustomNode type="Prototypes.image12" x="1152" y="592"/>
+    <CustomNode type="Prototypes.image12" x="1152" y="544"/>
+    <CustomNode type="Prototypes.image12" x="1152" y="496"/>
+    <CustomNode type="Prototypes.image12" x="1152" y="448"/>
+    <CustomNode type="Prototypes.image12" x="1152" y="400"/>
+    <CustomNode type="Prototypes.image12" x="1152" y="352"/>
+    <CustomNode type="Prototypes.image12" x="1152" y="304"/>
+    <CustomNode type="Prototypes.image12" x="1152" y="256"/>
+    <CustomNode type="Prototypes.image12" x="1152" y="208"/>
+    <CustomNode type="Prototypes.image12" x="1152" y="160"/>
+    <CustomNode type="Prototypes.image12" x="1152" y="112"/>
+    <CustomNode type="Prototypes.image12" x="896" y="64"/>
+    <CustomNode type="Prototypes.image12" x="896" y="16"/>
+    <CustomNode type="Prototypes.image12" x="896" y="-32"/>
+    <CustomNode type="Prototypes.image12" x="896" y="-80"/>
+    <CustomNode type="Prototypes.image12" x="1152" y="64"/>
+    <CustomNode type="Prototypes.image12" x="1152" y="16"/>
+    <CustomNode type="Prototypes.image12" x="1152" y="-32"/>
+    <CustomNode type="Prototypes.image12" x="1152" y="-80"/>
+    <CustomNode type="Prototypes.image12" x="1024" y="16"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="276" id="image_tree_3" layoutX="312" layoutY="72" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="82">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_tree_3" image=".data/img/foliagePack_035.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="211" id="image_tree_2" layoutX="232" layoutY="136" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="102">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_tree_2" image=".data/img/foliagePack_029.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_stone" image=".data/img/foliagePack_061.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_tree_4" image=".data/img/foliagePack_029.png" visible="1"/>
+    <Data animated="1" cursor="DEFAULT" enabled="1" id="data-player" sprite="Player" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="110" id="player" layoutX="536" layoutY="305" styleClass="" width="80"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="79" id="image_stone" layoutX="304" layoutY="504" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="158">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="211" id="image_tree_4" layoutX="784" layoutY="176" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="102">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <CustomNode type="Prototypes.image12" x="1024" y="-32"/>
+    <CustomNode type="Prototypes.image12" x="1024" y="-80"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-background" image=".data/img/blue_land.png" velocityX="2" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="110" id="object_princess" layoutX="664" layoutY="304" opacity="0" styleClass="" width="80"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-object_princess" sprite="Female" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="64" id="image_heart" layoutX="608" layoutY="264" mosaic="false" mosaicGap="0" opacity="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="64">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_heart" image=".data/img/heart.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="414" id="image_tree_1" layoutX="0" layoutY="304" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="202">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_tree_1" image=".data/img/foliagePack_033.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-princess" sprite="Female" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_fence" image=".data/img/fence.png" visible="1"/>
+    <CustomNode type="Prototypes.image_block_08_black" x="1024" y="256"/>
+    <CustomNode type="Prototypes.image_block_04" x="896" y="592"/>
+    <CustomNode type="Prototypes.image_block_04" x="896" y="544"/>
+    <CustomNode type="Prototypes.image_block_04" x="896" y="496"/>
+    <CustomNode type="Prototypes.image_block_04" x="896" y="448"/>
+    <CustomNode type="Prototypes.image_block_04" x="896" y="400"/>
+    <CustomNode type="Prototypes.image_block_04" x="896" y="352"/>
+    <CustomNode type="Prototypes.image_block_04" x="896" y="304"/>
+    <CustomNode type="Prototypes.image_block_04" x="896" y="256"/>
+    <CustomNode type="Prototypes.image_block_04" x="896" y="208"/>
+    <CustomNode type="Prototypes.image_block_04" x="896" y="160"/>
+    <CustomNode type="Prototypes.image_block_04" x="896" y="112"/>
+    <CustomNode type="Prototypes.image_block_04" x="1024" y="592"/>
+    <CustomNode type="Prototypes.image_block_04" x="1024" y="544"/>
+    <CustomNode type="Prototypes.image_block_04" x="1024" y="496"/>
+    <CustomNode type="Prototypes.image_block_04" x="1024" y="448"/>
+    <CustomNode type="Prototypes.image_block_04" x="1024" y="400"/>
+    <CustomNode type="Prototypes.image_block_04" x="1024" y="352"/>
+    <CustomNode type="Prototypes.image_block_04" x="1024" y="304"/>
+    <CustomNode type="Prototypes.image_block_04" x="1152" y="592"/>
+    <CustomNode type="Prototypes.image_block_04" x="1152" y="544"/>
+    <CustomNode type="Prototypes.image_block_04" x="1152" y="496"/>
+    <CustomNode type="Prototypes.image_block_04" x="1152" y="448"/>
+    <CustomNode type="Prototypes.image_block_04" x="1152" y="400"/>
+    <CustomNode type="Prototypes.image_block_04" x="1152" y="352"/>
+    <CustomNode type="Prototypes.image_block_04" x="1152" y="304"/>
+    <CustomNode type="Prototypes.image_block_04" x="1152" y="256"/>
+    <CustomNode type="Prototypes.image_block_04" x="1152" y="208"/>
+    <CustomNode type="Prototypes.image_block_04" x="1152" y="160"/>
+    <CustomNode type="Prototypes.image_block_04" x="1152" y="112"/>
+    <CustomNode type="Prototypes.image_block_04" x="896" y="64"/>
+    <CustomNode type="Prototypes.image_block_04" x="896" y="16"/>
+    <CustomNode type="Prototypes.image_block_04" x="896" y="-32"/>
+    <CustomNode type="Prototypes.image_block_04" x="896" y="-80"/>
+    <CustomNode type="Prototypes.image_block_04" x="1152" y="64"/>
+    <CustomNode type="Prototypes.image_block_04" x="1152" y="16"/>
+    <CustomNode type="Prototypes.image_block_04" x="1152" y="-32"/>
+    <CustomNode type="Prototypes.image_block_04" x="1152" y="-80"/>
+    <CustomNode type="Prototypes.image_block_08_black" x="1024" y="136"/>
+    <CustomNode type="Prototypes.image_block_04" x="1024" y="16"/>
+    <CustomNode type="Prototypes.image_block_04" x="1024" y="-32"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="110" id="princess" layoutX="1048" layoutY="200" styleClass="" width="80"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="128" id="image_fence" layoutX="1024" layoutY="224" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="128">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <CustomNode type="Prototypes.image_block_04" x="1024" y="-80"/>
+    <Circle fill="#ffffff00" focusTraversable="false" id="circle" layoutX="640" layoutY="360" opacity="0" radius="800" stroke="#1a1a1a" strokeType="INSIDE" strokeWidth="600" styleClass=""/>
+    <Data cursor="DEFAULT" enabled="1" id="data-circle" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#ffffff" focusTraversable="false" height="32" id="timer" layoutX="0" layoutY="0" opacity="0" stroke="#ffffff" strokeType="INSIDE" strokeWidth="2" styleClass="" width="32"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-timer" visible="1"/>
+  </children>
+</AnchorPane>

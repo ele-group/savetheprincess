@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite defaultAnimation="default" file=".game/sprites/Female.png" fixtureData="Array" fixtureType="" frameHeight="110" frameWidth="80" metaAutoSize="" metaCentred="" speed="12">
+  <animation indexes="0" name="default"/>
+</sprite>

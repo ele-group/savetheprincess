@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720" prefWidth="1280" styleClass="">
+  <children>
+    <GameBackground focusTraversable="false" height="720" id="background" layoutX="0" layoutY="-256" styleClass="without-focus " width="1280"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-background" image=".data/img/blue_land.png" velocityX="2" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="128" id="image_grassMid" layoutX="0" layoutY="464" mosaic="true" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="1280">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_grassMid" image=".data/img/grassMid.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="128" id="image_grassCenter" layoutX="0" layoutY="592" mosaic="true" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="1280">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_grassCenter" image=".data/img/grassCenter.png" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="110" id="player" layoutX="176" layoutY="352" styleClass="" width="80"/>
+    <Data animated="" cursor="DEFAULT" enabled="1" id="data-player" sprite="Player" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label_name" layoutX="312" layoutY="152" prefHeight="82" prefWidth="656" styleClass="label " text="Save the Princess" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Kenney Blocks Regular" size="50"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label_name" visible="1"/>
+    <FlatButton alignment="CENTER" color="#33333305" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#1a1a1a0d" id="button_start" layoutX="532" layoutY="312" opacity="0.9" prefHeight="42" prefWidth="216" styleClass="x-flat-button " text="start" textAlignment="CENTER" textFill="#1a1a1a" underline="false" wrapText="false">
+      <font>
+        <Font name="Kenney Blocks Regular" size="25"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-button_start" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="128" id="image_bushes_2" layoutX="1144" layoutY="336" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="128">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_bushes_2" image=".data/img/bush.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="128" id="image_bushes_1" layoutX="1072" layoutY="336" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="128">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_bushes_1" image=".data/img/bush.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="128" id="buttonImg_exit" layoutX="1112" layoutY="336" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="128">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="HAND" enabled="1" id="data-buttonImg_exit" image=".data/img/signExit.png" visible="1"/>
+  </children>
+</AnchorPane>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite defaultAnimation="1" file=".game/sprites/ufoboss.png" fixtureData="Array" fixtureType="" frameHeight="188" frameWidth="132" metaAutoSize="" metaCentred="" speed="4">
+  <animation indexes="15" name="1"/>
+  <animation indexes="18,20,21" name="2"/>
+  <animation indexes="7,9,10" name="21"/>
+  <animation indexes="16" name="3"/>
+  <animation indexes="0" name="default"/>
+</sprite>

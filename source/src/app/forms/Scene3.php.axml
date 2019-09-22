@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Scene3">
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doImage_spaceShipDest">
+      <showForm form="Match" form-type="form"/>
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+  
+  
+  
+  
+  <method name="doTimerDestroy">
+      <moveTo continue="" continue-type="" duration="3000" duration-type="integer" object="image_spaceShip" object-type="object" x="0" x-type="float" y="0" y-type="float"/>
+    </method>
+  
+  
+  
+  
+  <method name="doImage_spaceShipDestroy">
+      <phpLine expr="$this-&gt;ini-&gt;set('first-run','false','savetheprincess');" expr-type="expr"/>
+      <gameLoadScene dest="Menu" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+    </method>
+  </class>
+</root>

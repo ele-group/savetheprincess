@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="LevelThreeBackground">
+    <method name="doObject_ufo_small_1MouseDownL">
+      <createInstance id="Levels.image21" id-type="string" parent="image21" parent-type="object" relative="" relative-type="" x="0" x-type="integer" y="0" y-type="integer"/>
+      <elementSetX object="Levels.image21" object-type="instances" relative="" relative-type="" value="2800" value-type="integer"/>
+      <elementSetY object="Levels.image21" object-type="instances" relative="" relative-type="" value="-35" value-type="integer"/>
+      <setScore name="enemy1hp" name-type="string" relative="1" relative-type="" value="-17" value-type="integer"/>
+      <ifScore method="equals" method-type="" name="enemy1hp" name-type="string" not="1" not-type="" value="-2" value-type="integer"/>
+      <exit/>
+      <GameChangeAnimation animation="4" animation-type="string" object="~sender" object-type="object"/>
+      <sleep sync="" sync-type="" value="500" value-type="integer"/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~sender" object-type="object"/>
+      <elementDestroy object="~sender" object-type="object"/>
+    </method>
+    <method name="doObject_ufo_small_1Dest">
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="objectAlt" object-type="object"/>
+    </method>
+    <method name="doObject_ufo_small_2MouseDownL">
+      <createInstance id="Levels.image21" id-type="string" parent="image21" parent-type="object" relative="" relative-type="" x="0" x-type="integer" y="0" y-type="integer"/>
+      <elementSetX object="Levels.image21" object-type="instances" relative="" relative-type="" value="2800" value-type="integer"/>
+      <elementSetY object="Levels.image21" object-type="instances" relative="" relative-type="" value="-35" value-type="integer"/>
+      <setScore name="enemy2hp" name-type="string" relative="1" relative-type="" value="-17" value-type="integer"/>
+      <ifScore method="equals" method-type="" name="enemy2hp" name-type="string" not="1" not-type="" value="-2" value-type="integer"/>
+      <exit/>
+      <GameChangeAnimation animation="4" animation-type="string" object="~sender" object-type="object"/>
+      <sleep sync="" sync-type="" value="500" value-type="integer"/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~sender" object-type="object"/>
+      <elementDestroy object="~sender" object-type="object"/>
+    </method>
+    <method name="doObject_ufo_small_2Dest">
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="image19" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="image20" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="image18" object-type="object"/>
+      <GameChangeAnimation animation="default" animation-type="string" object="player" object-type="object"/>
+    </method>
+    <method name="doObject_zombie_3MouseDownL">
+      <GameChangeAnimation animation="2" animation-type="string" object="~sender" object-type="object"/>
+      <sleep sync="" sync-type="" value="250" value-type="integer"/>
+      <fadeOut continue="" continue-type="" duration="250" duration-type="integer" object="~sender" object-type="object"/>
+      <elementDestroy object="~sender" object-type="object"/>
+    </method>
+    <method name="doShot_ufo_smallCre">
+      <sleep sync="" sync-type="" value="1200" value-type="integer"/>
+      <elementDestroy object="Levels.image21" object-type="instances"/>
+    </method>
+    <method name="doObject_zombie_2MouseDownL">
+      <GameChangeAnimation animation="2" animation-type="string" object="~sender" object-type="object"/>
+      <sleep sync="" sync-type="" value="250" value-type="integer"/>
+      <fadeOut continue="" continue-type="" duration="250" duration-type="integer" object="~sender" object-type="object"/>
+      <elementDestroy object="~sender" object-type="object"/>
+    </method>
+    <method name="doObject_zombie_1MouseDownL">
+      <GameChangeAnimation animation="2" animation-type="string" object="~sender" object-type="object"/>
+      <sleep sync="" sync-type="" value="250" value-type="integer"/>
+      <fadeOut continue="" continue-type="" duration="250" duration-type="integer" object="~sender" object-type="object"/>
+      <elementDestroy object="~sender" object-type="object"/>
+    </method>
+    <method name="doRect_flag_bow2Collisionpla">
+      <elementDestroy object="~sender" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="object7" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="object8" object-type="object"/>
+      <GameChangeAnimation animation="1" animation-type="string" object="object8" object-type="object"/>
+      <sleep sync="" sync-type="" value="500" value-type="integer"/>
+      <GameChangeAnimation animation="default" animation-type="string" object="object8" object-type="object"/>
+      <exit/>
+    </method>
+    <method name="doObject_ufo_big_2MouseDownL">
+      <createInstance id="Levels.image22" id-type="string" parent="image22" parent-type="object" relative="1" relative-type="" x="-2000" x-type="integer" y="0" y-type="integer"/>
+      <createInstance id="Levels.image23" id-type="string" parent="image23" parent-type="object" relative="1" relative-type="" x="-2000" x-type="integer" y="0" y-type="integer"/>
+      <createInstance id="Levels.image24" id-type="string" parent="image24" parent-type="object" relative="1" relative-type="" x="-2000" x-type="integer" y="0" y-type="integer"/>
+      <createInstance id="Levels.image26" id-type="string" parent="image26" parent-type="object" relative="1" relative-type="" x="-2000" x-type="integer" y="0" y-type="integer"/>
+      <setScore name="bosshp" name-type="string" relative="1" relative-type="" value="-10" value-type="integer"/>
+      <ifScore method="equals" method-type="" name="bosshp" name-type="string" not="1" not-type="" value="0" value-type="integer"/>
+      <exit/>
+      <GameChangeAnimation animation="1" animation-type="string" object="~sender" object-type="object"/>
+      <sleep sync="" sync-type="" value="500" value-type="integer"/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~sender" object-type="object"/>
+      <hideForm form="LevelsForm" form-type="form"/>
+      <showForm form="Scene4" form-type="form"/>
+      <ifScore method="smaller" method-type="" name="hp" name-type="string" not="1" not-type="" value="0" value-type="integer"/>
+      <exit/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~sender" object-type="object"/>
+      <hideForm form="LevelsForm" form-type="form"/>
+      <showForm form="Lose" form-type="form"/>
+    </method>
+    <method name="doPlayerGlobalKeyDownLeft">
+      <GameChangeAnimation animation="backward" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+    <method name="doPlayerGlobalKeyDownRight">
+      <GameChangeAnimation animation="ahead" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+    <method name="doPlayerGlobalKeyDownUp">
+      <GameChangeAnimation animation="up" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+    <method name="doPlayerGlobalKeyDownTab">
+      <GameChangeAnimation animation="duck" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+    <method name="doPlayerGlobalKeyUpLeft">
+      <GameChangeAnimation animation="defaultago" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+    <method name="doPlayerGlobalKeyUpRight">
+      <GameChangeAnimation animation="default" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+    <method name="doPlayerGlobalKeyUpTab">
+      <GameChangeAnimation animation="default" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+    
+    <method name="doPlayerOutside">
+      <jumpingToStart object="~sender" object-type="object"/>
+    </method>
+    <method name="doPlayerGlobalKeyDownDown">
+      <GameChangeAnimation animation="default" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+    <method name="doBowCollisionimag">
+      <elementDestroy object="Levels.image21" object-type="instances"/>
+      <setScore name="hp" name-type="string" relative="1" relative-type="" value="-5" value-type="integer"/>
+      <elementSetText object="label" object-type="object" relative="" relative-type="" value="hp" value-type="score"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  <method name="doPlayerCollisionrect4">
+      <behaviourDisable behaviour="behaviour\custom\GridMovementBehaviour" behaviour-type="string" object="~sender" object-type="object"/>
+      <elementSetX object="~sender" object-type="object" relative="" relative-type="" value="2208" value-type="integer"/>
+      <elementSetY object="~sender" object-type="object" relative="" relative-type="" value="432" value-type="integer"/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="sword" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="bow" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="target" object-type="object"/>
+      <elementDestroy object="rect_flag_bow" object-type="object"/>
+      <sleep sync="" sync-type="" value="100" value-type="integer"/>
+      <behaviourEnable behaviour="behaviour\custom\GridMovementBehaviour" behaviour-type="string" object="~sender" object-type="object"/>
+      <behaviourEnable behaviour="behaviour\custom\GridMovementBehaviour" behaviour-type="string" object="bow" object-type="object"/>
+    </method>
+  <method name="doObject_ufo_small_1MouseDownLeft">
+      <createInstance id="LevelThreeBackground.shot_ufo_small" id-type="string" parent="image21" parent-type="object" relative="" relative-type="" x="0" x-type="integer" y="0" y-type="integer"/>
+      <elementSetX object="LevelThreeBackground.shot_ufo_small" object-type="instances" relative="" relative-type="" value="2800" value-type="integer"/>
+      <elementSetY object="LevelThreeBackground.shot_ufo_small" object-type="instances" relative="" relative-type="" value="-35" value-type="integer"/>
+      <setScore name="enemy1hp" name-type="string" relative="1" relative-type="" value="-17" value-type="integer"/>
+      <ifScore method="equals" method-type="" name="enemy1hp" name-type="string" not="1" not-type="" value="-2" value-type="integer"/>
+      <exit/>
+      <GameChangeAnimation animation="4" animation-type="string" object="~sender" object-type="object"/>
+      <sleep sync="" sync-type="" value="500" value-type="integer"/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~sender" object-type="object"/>
+      <elementDestroy object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_ufo_small_1Destroy">
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="object_ufo_small_2" object-type="object"/>
+    </method>
+  <method name="doShot_ufo_smallCreate">
+      <sleep sync="" sync-type="" value="1200" value-type="integer"/>
+      <elementDestroy object="LevelThreeBackground.shot_ufo_small" object-type="instances"/>
+    </method>
+  <method name="doObject_ufo_small_2MouseDownLeft">
+      <createInstance id="LevelThreeBackground.shot_ufo_small" id-type="string" parent="image21" parent-type="object" relative="" relative-type="" x="0" x-type="integer" y="0" y-type="integer"/>
+      <elementSetX object="LevelThreeBackground.shot_ufo_small" object-type="instances" relative="" relative-type="" value="2800" value-type="integer"/>
+      <elementSetY object="LevelThreeBackground.shot_ufo_small" object-type="instances" relative="" relative-type="" value="-35" value-type="integer"/>
+      <setScore name="enemy2hp" name-type="string" relative="1" relative-type="" value="-17" value-type="integer"/>
+      <ifScore method="equals" method-type="" name="enemy2hp" name-type="string" not="1" not-type="" value="-2" value-type="integer"/>
+      <exit/>
+      <GameChangeAnimation animation="4" animation-type="string" object="~sender" object-type="object"/>
+      <sleep sync="" sync-type="" value="500" value-type="integer"/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~sender" object-type="object"/>
+      <elementDestroy object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_ufo_small_2Destroy">
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="target" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="bow" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="sword" object-type="object"/>
+      <GameChangeAnimation animation="default" animation-type="string" object="player" object-type="object"/>
+    </method>
+  
+  <method name="doObject_zombie_1MouseDownLeft">
+      <GameChangeAnimation animation="2" animation-type="string" object="~sender" object-type="object"/>
+      <sleep sync="" sync-type="" value="250" value-type="integer"/>
+      <fadeOut continue="" continue-type="" duration="250" duration-type="integer" object="~sender" object-type="object"/>
+      <elementDestroy object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_zombie_3MouseDownLeft">
+      <GameChangeAnimation animation="2" animation-type="string" object="~sender" object-type="object"/>
+      <sleep sync="" sync-type="" value="250" value-type="integer"/>
+      <fadeOut continue="" continue-type="" duration="250" duration-type="integer" object="~sender" object-type="object"/>
+      <elementDestroy object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_zombie_2MouseDownLeft">
+      <GameChangeAnimation animation="2" animation-type="string" object="~sender" object-type="object"/>
+      <sleep sync="" sync-type="" value="250" value-type="integer"/>
+      <fadeOut continue="" continue-type="" duration="250" duration-type="integer" object="~sender" object-type="object"/>
+      <elementDestroy object="~sender" object-type="object"/>
+    </method>
+  <method name="doRect_flag_ufoCollisionplayer">
+      <elementDestroy object="~sender" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="object_ufo_big_1" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="object_ufo_big_2" object-type="object"/>
+      <GameChangeAnimation animation="1" animation-type="string" object="object_ufo_big_2" object-type="object"/>
+      <sleep sync="" sync-type="" value="500" value-type="integer"/>
+      <GameChangeAnimation animation="default" animation-type="string" object="object_ufo_big_2" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doBowCollisionshot_ufo_small">
+      <elementDestroy object="LevelThreeBackground.shot_ufo_small" object-type="instances"/>
+      <setScore name="hp" name-type="string" relative="1" relative-type="" value="-5" value-type="integer"/>
+      <elementSetText object="hp" object-type="object" relative="" relative-type="" value="hp" value-type="score"/>
+    </method>
+  
+  
+  
+  
+  <method name="doPlayerCollisionshot_ufo_1">
+      <elementDestroy object="LevelThreeBackground.shot_ufo_1" object-type="instances"/>
+    </method>
+  <method name="doPlayerCollisionshot_ufo_2">
+      <elementDestroy object="LevelThreeBackground.shot_ufo_2" object-type="instances"/>
+    </method>
+  <method name="doPlayerCollisionshot_ufo_3">
+      <elementDestroy object="LevelThreeBackground.shot_ufo_3" object-type="instances"/>
+    </method>
+  <method name="doPlayerCollisionshot_ufo_4">
+      <elementDestroy object="LevelThreeBackground.shot_ufo_4" object-type="instances"/>
+    </method>
+  <method name="doPlayerGlobalKeyDownSpace">
+      <GameChangeAnimation animation="newup" animation-type="string" object="~sender" object-type="object"/>
+      <displace continue="" continue-type="" duration="150" duration-type="integer" object="~sender" object-type="object" x="25" x-type="float" y="-50" y-type="float"/>
+      <GameChangeAnimation animation="default" animation-type="string" object="~sender" object-type="object"/>
+      <displace continue="" continue-type="" duration="150" duration-type="integer" object="~sender" object-type="object" x="25" x-type="float" y="50" y-type="float"/>
+    </method>
+  
+  </class>
+</root>

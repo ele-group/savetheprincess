@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="inf">
+    <behaviour color="#1a1a1a" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+    <behaviour direction="HORIZONTAL" type="behaviour\custom\CameraSnapBehaviour"/>
+  </target>
+  <target id="label_title_lvl1">
+    <behaviour color="#ffffff" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="label_title_lvl2">
+    <behaviour color="#ffffff" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="label_title_lvl3">
+    <behaviour color="#ffffff" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="rect_start_lvl1">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[0,0]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="rect_start_lvl2">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[0]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="rect_start_lvl3">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="imageBtn_start_lvl1">
+    <behaviour color="#1a1a1a" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="imageBtn_start_lvl2">
+    <behaviour color="#1a1a1a" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="imageBtn_start_lvl3">
+    <behaviour color="#1a1a1a" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_tree_1">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour brightness="0" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour color="#ffffff" enabled="" offsetX="0" offsetY="0" radius="2" spread="0.6" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_tree_2">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_tree_3">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_bushes_1">
+    <behaviour brightness="0.4" contrast="0" enabled="" hue="-1" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_flower">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_bushes_2">
+    <behaviour brightness="0.4" contrast="0" enabled="" hue="-1" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_bushes_6">
+    <behaviour brightness="0.4" contrast="0" enabled="" hue="-1" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_bushes_5">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="image_bushes_4">
+    <behaviour brightness="0.4" contrast="0" enabled="" hue="-1" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_bushes_3">
+    <behaviour brightness="0.4" contrast="0" enabled="" hue="-1" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="rect_wall_left">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[0]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="rect_wall_right">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[0,0]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="sky">
+    <behaviour brightness="0" contrast="0" hue="-0.4" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>

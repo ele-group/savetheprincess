@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Scene2">
+    
+  
+  <method name="doImage_ufoDest">
+      <showForm form="Scene3" form-type="form"/>
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+  <method name="doImage_ufoDestroy">
+      <gameLoadScene dest="Scene3" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+    </method>
+  </class>
+</root>

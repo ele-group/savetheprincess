@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Prototypes">
+    <method name="doPlayerGlobalKeyDownRi">
+      <GameChangeAnimation animation="ahead" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doPlayerGlobalKeyDownL">
+      <GameChangeAnimation animation="backward" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  
+  <method name="doPlayerGlobalKeyDown">
+      <GameChangeAnimation animation="duck" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doPlayerGlobalKeyUpRi">
+      <GameChangeAnimation animation="default" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doPlayerGlobalKeyU">
+      <GameChangeAnimation animation="default" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  
+  <method name="doPlayerGlobalKeyUpL">
+      <GameChangeAnimation animation="defaultago" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doPlayerGlobalKeyDow">
+      <GameChangeAnimation animation="up" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doPlayerGlobalKeyUp">
+      <GameChangeAnimation animation="default" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doPlayerCollisionzom">
+      <jumpingTo object="~sender" object-type="object" relative="" relative-type="" x="0" x-type="integer" y="0" y-type="integer"/>
+      <hideForm form="Match" form-type="form"/>
+      <showForm form="MatchLose" form-type="form"/>
+    </method>
+  
+  
+  
+  
+  <method name="doPlayerAltGlobalKeyDow">
+      <GameChangeAnimation animation="newup" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doPlayerAltGlobalKeyU">
+      <GameChangeAnimation animation="default" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doPlayerAltGlobalKeyDownRi">
+      <GameChangeAnimation animation="ahead" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doPlayerAltGlobalKeyDownL">
+      <GameChangeAnimation animation="backward" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doPlayerAltGlobalKeyUpL">
+      <GameChangeAnimation animation="defaultago" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doPlayerAltGlobalKeyUpRi">
+      <GameChangeAnimation animation="default" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doPlayerAltGlobalKeyUp">
+      <GameChangeAnimation animation="default" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doPlayerAltGlobalKeyDown">
+      <GameChangeAnimation animation="duck" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  <method name="doImage_key_1Collisionobject">
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~sender" object-type="object"/>
+      <setVar name="key" name-type="" value="true" value-type="string"/>
+    </method>
+  
+  
+  <method name="doImage_key_2Collisionobject">
+      <ifVar method="equals" method-type="" name="key" name-type="" not="1" not-type="" value="true" value-type="string"/>
+      <eventConsume/>
+      <collisionBounce bounciness="8" bounciness-type="float" object="~sender" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="~sender" object-type="object"/>
+      <sleep sync="" sync-type="" value="250" value-type="integer"/>
+      <GameChangeAnimation animation="Two" animation-type="string" object="~sender" object-type="object"/>
+      <sleep sync="" sync-type="" value="250" value-type="integer"/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~sender" object-type="object"/>
+    <showForm form="Chest" form-type="form"/>
+    </method>
+  
+  <method name="doPlayerGlobalKeyDownRight">
+      <GameChangeAnimation animation="ahead" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doPlayerGlobalKeyDownLeft">
+      <GameChangeAnimation animation="backward" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doPlayerGlobalKeyUpRight">
+      <GameChangeAnimation animation="default" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doPlayerGlobalKeyUpLeft">
+      <GameChangeAnimation animation="defaultago" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  
+  <method name="doPlayerGlobalKeyDownTab">
+      <GameChangeAnimation animation="duck" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doPlayerGlobalKeyUpTab">
+      <GameChangeAnimation animation="default" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  <method name="doPlayerGlobalKeyDownUp">
+      <GameChangeAnimation animation="up" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doPlayerGlobalKeyDownSpace">
+      <GameChangeAnimation animation="newup" animation-type="string" object="~sender" object-type="object"/>
+      <displace continue="" continue-type="" duration="150" duration-type="integer" object="~sender" object-type="object" x="25" x-type="float" y="-50" y-type="float"/>
+      <GameChangeAnimation animation="default" animation-type="string" object="~sender" object-type="object"/>
+      <displace continue="" continue-type="" duration="150" duration-type="integer" object="~sender" object-type="object" x="25" x-type="float" y="50" y-type="float"/>
+    </method>
+  <method name="doPlayerCollisionzombie">
+      <gameLoadScene dest="LevelOneLose" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+    </method>
+  <method name="doPlayerGlobalKeyDownDown">
+      <GameChangeAnimation animation="default" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doPlayerAltGlobalKeyDownRi">
+      <GameChangeAnimation animation="ahead" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+    <method name="doPlayerAltGlobalKeyDownL">
+      <GameChangeAnimation animation="backward" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+    <method name="doPlayerAltGlobalKeyDow">
+      <GameChangeAnimation animation="up" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+    <method name="doPlayerAltGlobalKeyDown">
+      <GameChangeAnimation animation="duck" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+    <method name="doPlayerAltGlobalKeyUpRi">
+      <GameChangeAnimation animation="default" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+    <method name="doPlayerAltGlobalKeyUpL">
+      <GameChangeAnimation animation="defaultago" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+    <method name="doPlayerAltGlobalKeyUp">
+      <GameChangeAnimation animation="default" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+    <method name="doPlayerAltCollisionzom">
+      <gameLoadScene dest="LevelOneLose" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+    </method>
+    <method name="doPlayerAltGlobalKeyDownSp">
+      <GameChangeAnimation animation="newup" animation-type="string" object="~sender" object-type="object"/>
+      <displace continue="" continue-type="" duration="150" duration-type="integer" object="~sender" object-type="object" x="25" x-type="float" y="-50" y-type="float"/>
+      <GameChangeAnimation animation="default" animation-type="string" object="~sender" object-type="object"/>
+      <displace continue="" continue-type="" duration="150" duration-type="integer" object="~sender" object-type="object" x="25" x-type="float" y="50" y-type="float"/>
+    </method>
+    <method name="doPlayerAltGlobalKeyDownD">
+      <GameChangeAnimation animation="default" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doPlayerAltGlobalKeyDownRight">
+      <GameChangeAnimation animation="ahead" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doPlayerAltGlobalKeyUpRight">
+      <GameChangeAnimation animation="default" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doPlayerAltGlobalKeyDownLeft">
+      <GameChangeAnimation animation="backward" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doPlayerAltGlobalKeyUpLeft">
+      <GameChangeAnimation animation="defaultago" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doPlayerAltGlobalKeyDownUp">
+      <GameChangeAnimation animation="newup" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doPlayerAltGlobalKeyUpUp">
+      <GameChangeAnimation animation="default" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doPlayerAltGlobalKeyUpTab">
+      <GameChangeAnimation animation="default" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doPlayerAltGlobalKeyDownTab">
+      <GameChangeAnimation animation="duck" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doImage_key_1CollisionobjectAlt">
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~sender" object-type="object"/>
+      <setVar name="key" name-type="" value="true" value-type="string"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  <method name="doImage_key_2CollisionobjectAlt">
+      <ifVar method="equals" method-type="" name="key" name-type="" not="1" not-type="" value="true" value-type="string"/>
+      <eventConsume/>
+      <collisionBounce bounciness="8" bounciness-type="float" object="~sender" object-type="object"/>
+      <setVar name="key" name-type="" value="false" value-type="string"/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="~sender" object-type="object"/>
+      <sleep sync="" sync-type="" value="250" value-type="integer"/>
+      <GameChangeAnimation animation="Two" animation-type="string" object="~sender" object-type="object"/>
+      <sleep sync="" sync-type="" value="250" value-type="integer"/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~sender" object-type="object"/>
+      <gameLoadScene dest="Chest" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+      <exit/>
+    </method>
+  </class>
+</root>

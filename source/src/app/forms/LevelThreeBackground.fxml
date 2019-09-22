@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720" prefWidth="4944" styleClass="">
+  <children>
+    <GameBackground focusTraversable="false" height="584" id="background" layoutX="0" layoutY="-248" styleClass="without-focus " width="4944"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="211" id="image_tree_5" layoutX="2576" layoutY="128" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="102">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-background" image=".data/img/blue_land.png" velocityX="2" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#1a1a1a" focusTraversable="false" height="24" id="rect_wall_up" layoutX="-24" layoutY="184" opacity="0" stroke="#1a1a1a" strokeType="INSIDE" strokeWidth="2" styleClass="" width="10432"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect_wall_up" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#1a1a1a" focusTraversable="false" height="520" id="rect_wall_left" layoutX="-24" layoutY="208" stroke="#1a1a1a" strokeType="INSIDE" strokeWidth="2" styleClass="" width="24"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect_wall_left" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="108" id="image_flower" layoutX="1040" layoutY="336" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="56">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_flower" image=".data/img/foliagePack_004.png" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#1a1a1a" focusTraversable="false" height="24" id="rect_wall_down" layoutX="-24" layoutY="728" stroke="#1a1a1a" strokeType="INSIDE" strokeWidth="2" styleClass="" width="4976"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect_wall_down" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="129" id="image_snowMid" layoutX="0" layoutY="336" mosaic="true" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="4944">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_snowMid" image=".data/img/snowMid.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="256" id="image_snowCenter" layoutX="0" layoutY="464" mosaic="true" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="4944">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_snowCenter" image=".data/img/snowCenter.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="414" id="image_tree_2" layoutX="528" layoutY="-64" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="202">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_tree_2" image=".data/img/foliagePack_033.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-princess" sprite="Female" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_fence" image=".data/img/fence.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="120" id="image_stone_2" layoutX="2136" layoutY="232" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="162">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_stone_2" image=".data/img/foliagePack_062.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="276" id="image_tree_8" layoutX="3888" layoutY="72" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="82">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_tree_8" image=".data/img/foliagePack_035.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="211" id="image_tree_7" layoutX="3816" layoutY="136" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="102">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_tree_7" image=".data/img/foliagePack_029.png" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="128" id="object_enemy_3" layoutX="1144" layoutY="552" styleClass="" width="128"/>
+    <Data animated="1" cursor="DEFAULT" enabled="1" id="data-object_enemy_3" sprite="fly" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="128" id="object_enemy_2" layoutX="968" layoutY="232" styleClass="" width="128"/>
+    <Data animated="1" cursor="DEFAULT" enabled="1" id="data-object_enemy_2" sprite="bee" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="128" id="object_enemy_4" layoutX="1448" layoutY="320" styleClass="" width="128"/>
+    <Data animated="1" cursor="DEFAULT" enabled="1" id="data-object_enemy_4" sprite="frog" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="128" id="object_enemy_5" layoutX="1728" layoutY="528" styleClass="" width="128"/>
+    <Data animated="1" cursor="DEFAULT" enabled="1" id="data-object_enemy_5" sprite="barnacle" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="128" id="object_enemy_16" layoutX="4336" layoutY="240" styleClass="" width="128"/>
+    <Data animated="1" cursor="DEFAULT" enabled="1" id="data-object_enemy_16" sprite="worm" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="128" id="object_enemy_7" layoutX="2072" layoutY="376" styleClass="" width="128"/>
+    <Data animated="1" cursor="DEFAULT" enabled="1" id="data-object_enemy_7" sprite="ladybug" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="128" id="object_enemy_8" layoutX="2448" layoutY="552" styleClass="" width="128"/>
+    <Data animated="1" cursor="DEFAULT" enabled="1" id="data-object_enemy_8" sprite="saw" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="128" id="object_enemy_6" layoutX="2000" layoutY="216" styleClass="" width="128"/>
+    <Data animated="1" cursor="DEFAULT" enabled="1" id="data-object_enemy_6" sprite="snail" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="128" id="object_enemy_9" layoutX="2536" layoutY="224" styleClass="" width="128"/>
+    <Data animated="1" cursor="DEFAULT" enabled="1" id="data-object_enemy_9" sprite="mouse" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="128" id="object_enemy_15" layoutX="4160" layoutY="456" styleClass="" width="128"/>
+    <Data animated="1" cursor="DEFAULT" enabled="1" id="data-object_enemy_15" sprite="slimeBlue" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="128" id="object_enemy_10" layoutX="2784" layoutY="432" styleClass="" width="128"/>
+    <Data animated="1" cursor="DEFAULT" enabled="1" id="data-object_enemy_10" sprite="slimeBlue" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="128" id="object_enemy_11" layoutX="3048" layoutY="248" styleClass="" width="128"/>
+    <Data animated="1" cursor="DEFAULT" enabled="1" id="data-object_enemy_11" sprite="fly" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="128" id="object_enemy_18" layoutX="4864" layoutY="520" styleClass="" width="128"/>
+    <Data animated="1" cursor="DEFAULT" enabled="1" id="data-object_enemy_18" sprite="saw" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="128" id="object_enemy_12" layoutX="3320" layoutY="536" styleClass="" width="128"/>
+    <Data animated="1" cursor="DEFAULT" enabled="1" id="data-object_enemy_12" sprite="barnacle" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="128" id="object_enemy_17" layoutX="4560" layoutY="584" styleClass="" width="128"/>
+    <Data animated="1" cursor="DEFAULT" enabled="1" id="data-object_enemy_17" sprite="bee" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="128" id="object_enemy_14" layoutX="3672" layoutY="440" styleClass="" width="128"/>
+    <Data animated="1" cursor="DEFAULT" enabled="1" id="data-object_enemy_14" sprite="ladybug" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="128" id="object_enemy_13" layoutX="3640" layoutY="216" styleClass="" width="128"/>
+    <Data animated="1" cursor="DEFAULT" enabled="1" id="data-object_enemy_13" sprite="snail" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="128" id="object_enemy_19" layoutX="5080" layoutY="264" styleClass="" width="128"/>
+    <Data animated="1" cursor="DEFAULT" enabled="1" id="data-object_enemy_19" sprite="mouse" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="128" id="object_ufo_small_1" layoutX="1992" layoutY="32" styleClass="" width="128"/>
+    <Data animated="1" cursor="DEFAULT" enabled="1" id="data-object_ufo_small_1" sprite="enemy1" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="128" id="object_ufo_small_2" layoutX="2664" layoutY="144" opacity="0" styleClass="" width="128"/>
+    <Data animated="1" cursor="DEFAULT" enabled="1" id="data-object_ufo_small_2" sprite="enemy4" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#cce6ff" focusTraversable="false" height="480" id="rect_flag_bow" layoutX="2144" layoutY="240" opacity="0" stroke="#334db3" strokeType="INSIDE" strokeWidth="2" styleClass="" width="40"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect_flag_bow" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="110" id="object_zombie_3" layoutX="3584" layoutY="376" styleClass="" width="80"/>
+    <Data animated="1" cursor="DEFAULT" id="data-object_zombie_3" sprite="zombiefinal"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="26" id="shot_ufo_small" layoutX="2792" layoutY="-808" mosaic="false" mosaicGap="0" proportional="false" rotate="145.82278481013" stretch="true" styleClass="" textFill="#000000" width="38">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-shot_ufo_small" image=".data/img/tank_bullet3.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="50" id="target" layoutX="2192" layoutY="664" mosaic="false" mosaicGap="0" opacity="0" proportional="true" stretch="false" styleClass="" textFill="#000000" width="50">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="HAND" enabled="1" id="data-target" image=".data/img/target.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="128" id="sword" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="true" stretch="false" styleClass="" textFill="#000000" width="128">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-sword" image=".data/img/sword_diamond.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-hp" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="110" id="object_zombie_2" layoutX="3584" layoutY="552" styleClass="" width="80"/>
+    <Data animated="1" cursor="DEFAULT" id="data-object_zombie_2" sprite="zombiefinal"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="110" id="object_zombie_1" layoutX="3360" layoutY="456" styleClass="" width="80"/>
+    <Data animated="1" cursor="DEFAULT" id="data-object_zombie_1" sprite="zombiefinal"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="128" id="object_ufo_big_1" layoutX="4120" layoutY="120" styleClass="" width="128"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-object_ufo_big_1" sprite="Ufo" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#cce6ff" focusTraversable="false" height="480" id="rect_flag_ufo" layoutX="3896" layoutY="240" opacity="0" stroke="#334db3" strokeType="INSIDE" strokeWidth="2" styleClass="" width="40"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect_flag_ufo" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="188" id="object_ufo_big_2" layoutX="4184" layoutY="368" opacity="0" styleClass="" width="132"/>
+    <Data animated="1" cursor="DEFAULT" enabled="1" id="data-object_ufo_big_2" sprite="ufoboss" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-shot_ufo_1" image=".data/img/tank_bullet5.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-shot_ufo_2" image=".data/img/tank_bullet5.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-shot_ufo_3" image=".data/img/tank_bullet5.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-shot_ufo_4" image=".data/img/tank_bullet5.png" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="110" id="player" layoutX="128" layoutY="448" styleClass="" width="80"/>
+    <Data animated="1" cursor="DEFAULT" enabled="1" id="data-player" sprite="Player" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_tree_1" image=".data/img/foliagePack_029.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_tree_3" image=".data/img/foliagePack_029.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="574" id="image_tree_4" layoutX="1776" layoutY="144" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="202">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_tree_4" image=".data/img/foliagePack_031.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_tree_5" image=".data/img/foliagePack_029.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_tree_6" image=".data/img/foliagePack_034.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_stone_3" image=".data/img/foliagePack_061.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="211" id="image_tree_9" layoutX="4448" layoutY="176" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="102">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_tree_9" image=".data/img/foliagePack_029.png" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="128" id="object_enemy_1" layoutX="864" layoutY="432" styleClass="" width="128"/>
+    <Data animated="1" cursor="DEFAULT" enabled="1" id="data-object_enemy_1" sprite="slimeBlue" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_stone_1" image=".data/img/foliagePack_061.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="128" id="bow" layoutX="2208" layoutY="432" mosaic="false" mosaicGap="0" opacity="0" proportional="true" stretch="false" styleClass="" textFill="#000000" width="128">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-bow" image=".data/img/bowArrow.png" visible="1"/>
+    <CustomNode type="Prototypes.image_block_08_black" x="4688" y="256"/>
+    <CustomNode type="Prototypes.image_block_04" x="4560" y="592"/>
+    <CustomNode type="Prototypes.image_block_04" x="4560" y="544"/>
+    <CustomNode type="Prototypes.image_block_04" x="4560" y="496"/>
+    <CustomNode type="Prototypes.image_block_04" x="4560" y="448"/>
+    <CustomNode type="Prototypes.image_block_04" x="4560" y="400"/>
+    <CustomNode type="Prototypes.image_block_04" x="4560" y="352"/>
+    <CustomNode type="Prototypes.image_block_04" x="4560" y="304"/>
+    <CustomNode type="Prototypes.image_block_04" x="4560" y="256"/>
+    <CustomNode type="Prototypes.image_block_04" x="4560" y="208"/>
+    <CustomNode type="Prototypes.image_block_04" x="4560" y="160"/>
+    <CustomNode type="Prototypes.image_block_04" x="4560" y="112"/>
+    <CustomNode type="Prototypes.image_block_04" x="4688" y="592"/>
+    <CustomNode type="Prototypes.image_block_04" x="4688" y="544"/>
+    <CustomNode type="Prototypes.image_block_04" x="4688" y="496"/>
+    <CustomNode type="Prototypes.image_block_04" x="4688" y="448"/>
+    <CustomNode type="Prototypes.image_block_04" x="4688" y="400"/>
+    <CustomNode type="Prototypes.image_block_04" x="4688" y="352"/>
+    <CustomNode type="Prototypes.image_block_04" x="4688" y="304"/>
+    <CustomNode type="Prototypes.image_block_04" x="4816" y="592"/>
+    <CustomNode type="Prototypes.image_block_04" x="4816" y="544"/>
+    <CustomNode type="Prototypes.image_block_04" x="4816" y="496"/>
+    <CustomNode type="Prototypes.image_block_04" x="4816" y="448"/>
+    <CustomNode type="Prototypes.image_block_04" x="4816" y="400"/>
+    <CustomNode type="Prototypes.image_block_04" x="4816" y="352"/>
+    <CustomNode type="Prototypes.image_block_04" x="4816" y="304"/>
+    <CustomNode type="Prototypes.image_block_04" x="4816" y="256"/>
+    <CustomNode type="Prototypes.image_block_04" x="4816" y="208"/>
+    <CustomNode type="Prototypes.image_block_04" x="4816" y="160"/>
+    <CustomNode type="Prototypes.image_block_04" x="4816" y="112"/>
+    <CustomNode type="Prototypes.image_block_04" x="4560" y="64"/>
+    <CustomNode type="Prototypes.image_block_04" x="4560" y="16"/>
+    <CustomNode type="Prototypes.image_block_04" x="4560" y="-32"/>
+    <CustomNode type="Prototypes.image_block_04" x="4560" y="-80"/>
+    <CustomNode type="Prototypes.image_block_04" x="4816" y="64"/>
+    <CustomNode type="Prototypes.image_block_04" x="4816" y="16"/>
+    <CustomNode type="Prototypes.image_block_04" x="4816" y="-32"/>
+    <CustomNode type="Prototypes.image_block_04" x="4816" y="-80"/>
+    <CustomNode type="Prototypes.image_block_08_black" x="4688" y="136"/>
+    <CustomNode type="Prototypes.image_block_04" x="4688" y="16"/>
+    <CustomNode type="Prototypes.image_block_04" x="4688" y="-32"/>
+    <CustomNode type="Prototypes.image_block_04" x="4688" y="-80"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="110" id="princess" layoutX="4712" layoutY="200" styleClass="" width="80"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="128" id="image_fence" layoutX="4688" layoutY="224" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="128">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="211" id="image_tree_1" layoutX="304" layoutY="512" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="102">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="79" id="image_stone_1" layoutX="664" layoutY="640" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="158">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="211" id="image_tree_3" layoutX="1272" layoutY="504" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="102">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="79" id="image_stone_3" layoutX="3448" layoutY="640" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="158">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="hp" layoutX="1080" layoutY="40" prefHeight="104" prefWidth="168" styleClass="label " text="100" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Kenney Blocks Regular" size="50"/>
+      </font>
+    </LabelEx>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="28" id="shot_ufo_1" layoutX="6968" layoutY="296" mosaic="false" mosaicGap="0" proportional="false" rotate="180" stretch="true" styleClass="" textFill="#000000" width="34">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="28" id="shot_ufo_2" layoutX="6968" layoutY="376" mosaic="false" mosaicGap="0" proportional="false" rotate="180" stretch="true" styleClass="" textFill="#000000" width="34">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="28" id="shot_ufo_4" layoutX="6968" layoutY="656" mosaic="false" mosaicGap="0" proportional="false" rotate="180" stretch="true" styleClass="" textFill="#000000" width="34">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="28" id="shot_ufo_3" layoutX="6968" layoutY="456" mosaic="false" mosaicGap="0" proportional="false" rotate="180" stretch="true" styleClass="" textFill="#000000" width="34">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="275" id="image_tree_6" layoutX="3112" layoutY="440" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="82">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+  </children>
+</AnchorPane>

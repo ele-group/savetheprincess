@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MatchLose">
+    
+  <method name="doConstruct">
+      <elementDestroy object="form('MatchBackground')" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  <method name="doButtonMouseDownLeft">
+      <loadForm form="City" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    <exit/>
+    </method>
+  </class>
+<class name="Lose">
+    
+  
+  
+  
+  <method name="doButton_nextMouseDownLeft">
+      <gameLoadScene dest="CityBackground" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+    </method>
+  <method name="doConstruct">
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="form('Screen')-&gt;mouse" object-type="object"/>
+    </method>
+  </class>
+</root>

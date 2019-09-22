@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="background">
+    <behaviour brightness="0" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour radius="10" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="object_female">
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[0,0]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour radius="10" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="object_male">
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[0,0]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour radius="10" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_ufo">
+    <behaviour radius="0" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+    <behaviour animated="1" delay="0" duration="3000" repeatCount="-1" scale="1.4" type="behaviour\custom\PulseAnimationBehaviour" when="ALWAYS"/>
+    <behaviour animated="1" delay="1500" duration="300" repeatCount="-1" type="behaviour\custom\AutoDestroyBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_flower_1">
+    <behaviour brightness="0" contrast="0" hue="0.79746835443038" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour radius="10" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_flower_2">
+    <behaviour brightness="0" contrast="0" hue="0.063291139240506" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour radius="10" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_flower_3">
+    <behaviour brightness="0" contrast="0" hue="-1" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour radius="10" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_flower_4">
+    <behaviour brightness="0" contrast="0" hue="-0.81012658227848" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour radius="10" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_flower_5">
+    <behaviour brightness="0" contrast="0" hue="0.56962025316456" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour radius="10" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_flower_6">
+    <behaviour brightness="0" contrast="0" hue="0.56962025316456" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour radius="10" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_flower_7">
+    <behaviour brightness="0" contrast="0" hue="1" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour radius="10" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_flower_8">
+    <behaviour brightness="0" contrast="0" hue="0.83544303797468" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour radius="10" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>

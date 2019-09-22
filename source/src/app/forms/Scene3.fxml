@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720" prefWidth="1280" styleClass="">
+  <children>
+    <GameBackground focusTraversable="false" height="888" id="background" layoutX="0" layoutY="-168" styleClass="without-focus " width="1280"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-background" image=".data/img/colored_land.png" velocityX="1" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_spaceShip" image=".data/img/spaceShips_002.png" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="110" id="object_male" layoutX="544" layoutY="472" styleClass="" width="80"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-object_male" sprite="Player" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="110" id="object_female" layoutX="624" layoutY="472" styleClass="" width="80"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-object_female" sprite="Female" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="32" id="image_flower_9" layoutX="1184" layoutY="616" mosaic="true" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="42">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_flower_9" image=".data/img/foliagePack_0012.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="32" id="image_flower_8" layoutX="1072" layoutY="512" mosaic="true" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="42">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_flower_8" image=".data/img/foliagePack_0012.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="32" id="image_flower_7" layoutX="920" layoutY="552" mosaic="true" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="42">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_flower_7" image=".data/img/foliagePack_0012.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="32" id="image_flower_5" layoutX="720" layoutY="640" mosaic="true" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="42">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_flower_5" image=".data/img/foliagePack_0012.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="32" id="image_flower_6" layoutX="744" layoutY="536" mosaic="true" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="42">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_flower_6" image=".data/img/foliagePack_0012.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="32" id="image_flower_4" layoutX="456" layoutY="584" mosaic="true" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="42">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_flower_4" image=".data/img/foliagePack_0012.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="32" id="image_flower_3" layoutX="264" layoutY="632" mosaic="true" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="42">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_flower_3" image=".data/img/foliagePack_0012.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="32" id="image_flower_2" layoutX="224" layoutY="496" mosaic="true" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="42">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_flower_2" image=".data/img/foliagePack_0012.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="32" id="image_flower_1" layoutX="112" layoutY="592" mosaic="true" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="42">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_flower_1" image=".data/img/foliagePack_0012.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="216" id="image_spaceShip" layoutX="800" layoutY="640" mosaic="false" mosaicGap="0" proportional="true" rotate="130" stretch="false" styleClass="" textFill="#000000" width="252">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#ffffff" focusTraversable="false" height="32" id="timer" layoutX="0" layoutY="0" opacity="0" stroke="#ffffff" strokeType="INSIDE" strokeWidth="2" styleClass="" width="32"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-timer" visible="1"/>
+  </children>
+</AnchorPane>

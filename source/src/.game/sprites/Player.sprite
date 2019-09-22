@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite defaultAnimation="default" file=".game/sprites/Player.png" fixtureData="Array" fixtureType="" frameHeight="110" frameWidth="80" metaAutoSize="" metaCentred="" speed="12">
+  <animation indexes="9,10" name="ahead"/>
+  <animation indexes="41,40" name="backward"/>
+  <animation indexes="22" name="up"/>
+  <animation indexes="0" name="default"/>
+  <animation indexes="32" name="defaultago"/>
+  <animation indexes="3" name="duck"/>
+  <animation indexes="20" name="newup"/>
+</sprite>

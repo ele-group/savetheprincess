@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720" prefWidth="1280" styleClass="">
+  <children>
+    <GameBackground focusTraversable="false" height="720" id="background" layoutX="0" layoutY="0" styleClass="without-focus " width="1280"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-background" image=".data/img/blue_land.png" velocityX="1" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label_name" visible="1"/>
+    <Data cursor="HAND" enabled="1" id="data-button_next" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label_win" layoutX="208" layoutY="240" opacity="0.9" prefHeight="240" prefWidth="864" styleClass="label " text="ПОБЕДА" textAlignment="CENTER" textFill="#003300" underline="false" wrapText="true">
+      <font>
+        <Font name="Calibri Bold" size="80"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label_win" visible="1"/>
+    <FlatButton alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button_next" layoutX="532" layoutY="480" opacity="0.9" prefHeight="42" prefWidth="216" styleClass="x-flat-button " text="Next" textAlignment="CENTER" textFill="#1a1a1a" underline="false" wrapText="false">
+      <font>
+        <Font name="Kenney Blocks Regular" size="25"/>
+      </font>
+    </FlatButton>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label_name" layoutX="312" layoutY="160" prefHeight="82" prefWidth="656" styleClass="label " text="Save the Princess" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Kenney Blocks Regular" size="42"/>
+      </font>
+    </LabelEx>
+  </children>
+</AnchorPane>

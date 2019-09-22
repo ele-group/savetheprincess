@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite defaultAnimation="1" file=".game/sprites/enemy4.png" fixtureData="Array" fixtureType="" frameHeight="128" frameWidth="128" metaAutoSize="" metaCentred="1" speed="5">
+  <animation indexes="0" name="1"/>
+  <animation indexes="2" name="2"/>
+  <animation indexes="3" name="3"/>
+  <animation indexes="4,5,6" name="4"/>
+</sprite>

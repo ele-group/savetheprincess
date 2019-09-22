@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Scene1">
+    
+  
+  
+  
+  
+  
+  
+  <method name="doImage_spaceShipDest">
+      <showForm form="Scene2" form-type="form"/>
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+  
+  <method name="doImage_spaceShipDestroy">
+      <gameLoadScene dest="Scene2" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+    </method>
+  <method name="doTimerDest">
+      <moveTo continue="" continue-type="" duration="3000" duration-type="integer" object="image_spaceShip" object-type="object" x="0" x-type="float" y="250" y-type="float"/>
+    </method>
+  <method name="doTimerDestroy">
+      <moveTo continue="" continue-type="" duration="3000" duration-type="integer" object="image_spaceShip" object-type="object" x="0" x-type="float" y="250" y-type="float"/>
+    </method>
+  
+  </class>
+</root>

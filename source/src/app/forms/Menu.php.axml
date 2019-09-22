@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Menu">
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doButton_startMouseDownL">
+      <hideForm form="~sender" form-type="form"/>
+      <showForm form="City" form-type="form"/>
+    </method>
+  
+  <method name="doButtonImg_exitMouseDownL">
+      <applicationShutdown/>
+    </method>
+  <method name="doButtonImg_exitMouseDownLeft">
+      <applicationShutdown/>
+    </method>
+  <method name="doButton_startMouseDownLeft">
+      <gameLoadScene dest="CityBackground" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+    </method>
+  </class>
+</root>
